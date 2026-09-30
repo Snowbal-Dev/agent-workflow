@@ -11,7 +11,7 @@
 
 ---
 
-## 🚨 CRITICAL: First-Run Prerequisites Check / Kiểm Tra Điều Kiện Tiên Quyết
+## ⚡ CRITICAL: First-Run Prerequisites Check / Kiểm Tra Điều Kiện Tiên Quyết
 
 **BEFORE doing ANY work**, check if these MCP servers are available.
 If not, PROACTIVELY tell the user to install them.
@@ -38,23 +38,25 @@ If not, PROACTIVELY tell the user to install them.
 
 ---
 
-## 🧠 THE WORKFLOW: 6-Phase Development Lifecycle
+## 🔄 THE ENTERPRISE WORKFLOW: 6-Phase Development Lifecycle
+
+This system operates as a full-scale **AI Agent Software Engineering Enterprise (59 Skills)**:
 
 ```
-MACRO-WORKFLOW (Epic/Feature lifecycle)
+MACRO-WORKFLOW (Enterprise Feature Lifecycle)
 
-Phase 1        Phase 2        Phase 3        Phase 4        Phase 5   Phase 6
-Discover  -->  Design   -->   Plan    -->  Execute   -->  Review  --> Ship
-& Spec         & Arch         & Isolate     & Build        & Harden   & Deploy
-(4 skills)     (15 skills)    (6 skills)    (11 skills)    (7 skills) (6 skills)
+Phase 1        Phase 2        Phase 3        Phase 4        Phase 5        Phase 6
+Discover  -->  Design   -->   Plan    -->  Execute   -->  Review   -->  Ship &
+& Spec         & Arch         & Isolate     & Build        & Verify       Observe
+(4 skills)     (16 skills)    (10 skills)   (11 skills)    (8 skills)     (8 skills)
                                                |
                                     MICRO-WORKFLOW (per task)
-                                    1. Quick clarify
-                                    2. Mini plan
-                                    3. TDD + Code
-                                    4. Review
-                                    5. Verify
-                                    6. Commit
+                                    1. Quick clarify (Stage 0)
+                                    2. Mini plan & contract
+                                    3. TDD + Code implementation
+                                    4. Multi-axis review
+                                    5. Verification with evidence
+                                    6. Git commit
 ```
 
 **Small task** = Only Micro-Workflow (2-4 skills)
@@ -62,11 +64,11 @@ Discover  -->  Design   -->   Plan    -->  Execute   -->  Review  --> Ship
 
 ---
 
-## 📋 AUTO-ROUTING TABLE: When to Invoke Which Skill
+## 🧭 AUTO-ROUTING TABLE: When to Invoke Which Skill (59 Skills)
 
 **YOU DO NOT WAIT for the user to name a skill.** Detect intent, invoke automatically.
 
-### Phase 1: Product Discovery
+### Phase 1: Product Discovery & Requirements (4 skills)
 
 | Trigger | Skill | Purpose |
 |---|---|---|
@@ -75,12 +77,13 @@ Discover  -->  Design   -->   Plan    -->  Execute   -->  Review  --> Ship
 | Expanding options before choosing | `idea-expansion` | Divergent thinking |
 | Stress-testing a plan, "grill me" | `grill-me` | Surface flawed assumptions |
 
-### Phase 2: Architecture & Design
+### Phase 2: Architecture & Design (16 skills)
 
 | Trigger | Skill | Purpose |
 |---|---|---|
 | Architectural decisions, domain model | `design-and-document` | ADR + CONTEXT.md |
 | Code structure, module boundaries | `improve-architecture` | Coupling detection |
+| API design, Zod schemas, RPC contracts | `api-and-interface-design` | Type-safe REST/RPC contracts |
 | Supabase schema, RLS, Auth | `supabase` | Full-stack Supabase |
 | DB optimization, indexes, queries | `supabase-postgres-best-practices` | Postgres tuning |
 | Visual direction, colors, typography | `ui-ux-pro-max` | 50+ styles reference |
@@ -95,18 +98,22 @@ Discover  -->  Design   -->   Plan    -->  Execute   -->  Review  --> Ship
 | Visual assets, posters, banners | `canvas-design` | Code-generated graphics |
 | HTML prototype (3 directions) | `huashu-design` | High-fidelity prototyping |
 
-### Phase 3: Planning & Isolation
+### Phase 3: Planning, State Architecture & Isolation (10 skills)
 
 | Trigger | Skill | Purpose |
 |---|---|---|
 | Breaking epic into tasks | `plan-tasks` | Task chain decomposition |
+| Server data caching, TanStack Query | `tanstack-query-best-practices` | Server cache & optimistic updates |
+| Client UI state, store slices, persist | `zustand-state-management` | Lightweight client store |
+| Complex React state strategy | `react-state-management` | Global state architecture |
+| Multi-language, i18n, translations | `internationalization-i18n` | Locale & translation setup |
 | Need isolated workspace | `using-git-worktrees` | Git worktree creation |
 | 2+ independent parallel tasks | `dispatching-parallel-agents` | Subagent fan-out |
 | Background principle for ALL code | `karpathy-guidelines` | Anti-overengineering |
-| Understanding existing code | `explore-codebase` | Knowledge Graph nav |
+| Understanding existing code | `explore-codebase` | Knowledge Graph navigation |
 | Need new capability | `find-skills` | Skill discovery |
 
-### Phase 4: Implementation
+### Phase 4: Implementation & Engineering (11 skills)
 
 | Trigger | Skill | Purpose |
 |---|---|---|
@@ -121,10 +128,11 @@ Discover  -->  Design   -->   Plan    -->  Execute   -->  Review  --> Ship
 | Tracing through dependencies | `debug-issue` | Graph-powered tracing |
 | TypeScript/Vite build error | `build-error-resolver` | Minimal-diff green |
 
-### Phase 5: Review & Hardening
+### Phase 5: Review, Hardening & QA Automation (8 skills)
 
 | Trigger | Skill | Purpose |
 |---|---|---|
+| E2E browser test, user journeys | `playwright-best-practices` | Playwright browser automation |
 | Code ready for review | `code-review` | Multi-axis review |
 | Analyzing diff impact | `review-changes` | Impact radius analysis |
 | Simplification needed | `simplify-code` | Remove abstractions |
@@ -133,10 +141,12 @@ Discover  -->  Design   -->   Plan    -->  Execute   -->  Review  --> Ship
 | Pre-launch checklist | `tester` | Readiness + rollback |
 | Claiming "done" or "fixed" | `verification-before-completion` | Evidence required |
 
-### Phase 6: Ship & Deploy
+### Phase 6: Ship, CI/CD, Observability & Operations (8 skills)
 
 | Trigger | Skill | Purpose |
 |---|---|---|
+| GitHub Actions, CI/CD pipeline | `ci-cd-and-automation` | PR checks, build cache, release |
+| Production logs, errors, telemetry | `observability-and-instrumentation` | Sentry, logs, metrics, alerts |
 | SEO optimization | `seo-audit` | Meta, OG, JSON-LD |
 | Full site audit (260+ rules) | `audit-website` | Squirrelscan scan |
 | Deploying to Vercel | `deploy-to-vercel` | Preview/production |
@@ -144,7 +154,7 @@ Discover  -->  Design   -->   Plan    -->  Execute   -->  Review  --> Ship
 | Merging feature branch | `finishing-a-development-branch` | Clean merge + PR |
 | Documenting architecture | `document-decisions` | Technical docs |
 
-### Universal Meta
+### Universal Meta (2 skills)
 
 | Trigger | Skill | Purpose |
 |---|---|---|
@@ -153,7 +163,7 @@ Discover  -->  Design   -->   Plan    -->  Execute   -->  Review  --> Ship
 
 ---
 
-## 🔄 WORKFLOW DECISION TREE
+## 🌳 WORKFLOW DECISION TREE
 
 ```
 User sends a request
@@ -169,17 +179,17 @@ Is it a small clear change? -- YES --> Phase 4 (incremental + tdd)
         NO
         |
         v
-Is it a new feature? --------- YES --> Phase 1 --> 2 --> 3 --> 4 --> 5 --> 6
+Is it a new feature/system? -- YES --> Phase 1 --> 2 --> 3 --> 4 --> 5 --> 6
         |
         NO
         |
         v
-Is it code review? ----------- YES --> Phase 5 (code-review/simplify/refactor)
+Is it code review/testing? --- YES --> Phase 5 (code-review/playwright/security)
         |
         NO
         |
         v
-Is it deployment/SEO? -------- YES --> Phase 6 (seo/deploy/audit)
+Is it CI/CD, deploy, monitor?- YES --> Phase 6 (ci-cd/observability/deploy)
         |
         NO
         |
@@ -189,7 +199,7 @@ Answer directly, invoke relevant skills as needed
 
 ---
 
-## 🛡️ IMMUTABLE RULES
+## 🔒 IMMUTABLE RULES
 
 1. **NEVER skip verification.** Run `verification-before-completion` before
    claiming work is done. Show actual green test output.
@@ -202,7 +212,7 @@ Answer directly, invoke relevant skills as needed
 
 ---
 
-## 🔧 MCP TOOLS: code-review-graph
+## 📊 MCP TOOLS: code-review-graph
 
 ALWAYS use these tools BEFORE Grep/Glob/Read to explore the codebase:
 
@@ -219,18 +229,19 @@ ALWAYS use these tools BEFORE Grep/Glob/Read to explore the codebase:
 
 ---
 
-## 📖 FOR HUMANS: Quick Start
+## 👥 FOR HUMANS: Quick Start
 
-**agent-workflow-skill** is a set of 51 AI agent skills organized into a
-6-phase development workflow for React + Vite + Supabase + Vercel.
+**agent-workflow-skill** is a complete, self-contained AI Agent Software
+Development Agency featuring **59 skills** organized into a 6-phase enterprise
+lifecycle for React + Vite + Supabase + Vercel.
 
 You DON'T need to manually invoke skills. The AI reads this file and
 automatically routes your request to the right skill at the right time.
 
 Just talk naturally:
-- "Build me a profile page" → AI runs Phase 1→2→3→4→5
-- "Fix this crash" → AI runs Phase 4→5
-- "Deploy to production" → AI runs Phase 6
-- "Review my code" → AI runs Phase 5
+- "Build me a profile page" ➔ AI runs Phase 1 ➔ 2 ➔ 3 ➔ 4 ➔ 5
+- "Fix this crash" ➔ AI runs Phase 4 ➔ 5
+- "Set up CI/CD & monitoring" ➔ AI runs Phase 6
+- "Review my code" ➔ AI runs Phase 5
 
-See `README.md` for full installation instructions.
+See `README.md` for full documentation and architectural guides.

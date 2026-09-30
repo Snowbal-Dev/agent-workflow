@@ -1,313 +1,215 @@
-﻿# 🚀 Agent Workflow Skill
-# Bộ Kỹ Năng Quy Trình Agent
+﻿# 🏢 Agent Workflow Skill
+## Một Tổng Công Ty Agents AI Độc Lập Chuẩn Enterprise Production
+### The All-in-One Standalone AI Agent Software Company (59 Skills · 6 Phases)
 
-[![Skills](https://img.shields.io/badge/skills-51-blue)]()
-[![Stack](https://img.shields.io/badge/stack-React%20%2B%20Vite%20%2B%20Supabase-green)]()
-[![Harness](https://img.shields.io/badge/harness-7%2B%20supported-purple)]()
-
-> **EN**: A production-grade AI agent skill pack with 51 skills organized into
-> a 6-phase software development workflow. Designed for **React/React Native +
-> Vite + Supabase + Vercel** projects. Works with Antigravity, Claude Code,
-> Cursor, Windsurf, Codex, GPT, Grok, and any agent that reads `AGENTS.md`.
->
-> **VN**: Bộ kỹ năng AI agent cấp sản xuất với 51 skills được tổ chức thành
-> quy trình phát triển phần mềm 6 giai đoạn. Thiết kế cho dự án **React/React
-> Native + Vite + Supabase + Vercel**. Tương thích Antigravity, Claude Code,
-> Cursor, Windsurf, Codex, GPT, Grok và mọi agent đọc `AGENTS.md`.
+[![Skills](https://img.shields.io/badge/skills-59-blue.svg)]()
+[![Standard](https://img.shields.io/badge/standard-Enterprise%20Production-gold.svg)]()
+[![Architecture](https://img.shields.io/badge/architecture-100%25%20Standalone%20Offline-green.svg)]()
+[![Stack](https://img.shields.io/badge/stack-React%20%2B%20Vite%20%2B%20Supabase%20%2B%20Vercel-success.svg)]()
+[![Agents](https://img.shields.io/badge/compatibility-Gemini%20%7C%20Claude%20%7C%20Cursor%20%7C%20Codex%20%7C%20GPT--4o%20%7C%20Grok-purple.svg)]()
 
 ---
 
-## ✨ What Makes This Different? / Điểm Khác Biệt
-
-### vs Generic Skill Packs (ECC, Superpowers...)
-
-| Feature | Generic Packs | agent-workflow-skill |
-|---|---|---|
-| Stack focus | Everything (generic) | React + RN + Vite + Supabase |
-| Workflow | Skills are standalone | **6-phase lifecycle with auto-routing** |
-| AI autonomy | User must invoke skills | **AI auto-detects intent & invokes** |
-| Design skills | 0-2 | **15+ (Apple, Material, Frosted Glass, 3D...)** |
-| Code intelligence | grep/glob only | **Knowledge Graph (code-review-graph)** |
-| Multi-harness | 1-3 platforms | **7+ platforms** |
-
-### The Key Innovation: AI-Driven Workflow / Đổi Mới Cốt Lõi
-
-**The user does NOT need to know skill names.** The `AGENTS.md` file contains
-a complete auto-routing table that maps user intent → correct skill → correct
-workflow phase. The AI reads this once and knows exactly what to do.
-
-**Người dùng KHÔNG CẦN biết tên skill.** File `AGENTS.md` chứa bảng định tuyến
-tự động ánh xạ ý định người dùng → skill đúng → giai đoạn workflow đúng.
-AI đọc file này 1 lần và biết chính xác phải làm gì.
+> **English Summary**: `agent-workflow-skill` is a battle-tested, all-in-one AI agent operating system.
+> It packages **59 production-grade engineering skills** into a cohesive **6-phase development lifecycle**,
+> functioning as an entire senior software engineering company inside your AI coding assistant.
+> It features **100% standalone offline capability**, an **autonomous routing engine** (`AGENTS.md`),
+> and native support for Antigravity, Claude Code, Cursor, Windsurf, OpenAI Codex, and Grok.
 
 ---
 
-## 📦 Installation / Cài Đặt
+## 🌟 TẠI SAO ĐÂY LÀ "CẢ MỘT TỔNG CÔNG TY AI SENIOR"?
 
-### Method 1: Copy to your project / Copy vào dự án
+Hầu hết mọi người khi dùng AI thường chỉ dừng lại ở việc gõ prompt lẻ tẻ hoặc cài một vài snippet rời rạc. Hậu quả là: AI sinh code cẩu thả, không có kiến trúc, không kiểm thử, dễ vỡ và không thể đưa vào production thực tế.
+
+**`agent-workflow-skill` giải quyết triệt để vấn đề này.** Bộ khung này tổ chức lại AI của bạn hoạt động chính xác như một **Công ty Công nghệ Cấp Cao (Senior Digital Agency / Tech Enterprise)** với đầy đủ các ban ngành chuyên trách:
+
+```
+                          ┌───────────────────────────────────────────────┐
+                          │   🏢 TỔNG CÔNG TY AI SOFTWARE ENGINEERING     │
+                          │   (59 Chuyên Gia Cao Cấp · 6 Giai Đoạn Chuẩn) │
+                          └──────────────────────┬────────────────────────┘
+                                                 │
+      ┌──────────────────┬───────────────────────┼───────────────────────┬──────────────────┐
+      │                  │                       │                       │                  │
+┌─────▼──────┐    ┌──────▼──────┐         ┌──────▼──────┐         ┌──────▼──────┐    ┌──────▼──────┐
+│ 🎯 Ban PM  │    │ 🏛️ Ban Kiến │         │ 🎨 Ban Thiết│         │ ⚛️ Khối Lập  │    │ 🚀 Ban      │
+│ & BA       │    │ trúc Sư     │         │ kế UI/UX    │         │ trình Full  │    │ DevOps, CI  │
+│ Sản Phẩm   │    │ Hệ Thống    │         │ & Design    │         │ Frontend/DB │    │ & Vận Hành  │
+└─────┬──────┘    └──────┬──────┘         └──────┬──────┘         └──────┬──────┘    └──────┬──────┘
+      │                  │                       │                       │                  │
+  4 Skills           5 Skills                11 Skills               19 Skills          20 Skills
+  - Phỏng vấn        - Domain Design         - 50+ Design Styles     - React/Vite Perf  - GitHub Actions
+  - Brainstorming    - API Contracts (Zod)   - Apple HIG / Glass     - Supabase Backend - Playwright E2E
+  - Làm rõ scope     - Schema & RLS          - 3D Motion Shaders     - TanStack Cache   - Sentry / Tracing
+  - Thách thức plan  - Postgres Tuning       - Mobile HIG Design     - Zustand Store    - Vercel Deploy
+```
+
+---
+
+## 💎 3 ĐỘT PHÁ CỐT LÕI (CORE ADVANTAGES)
+
+### 1. 📦 100% All-in-One Standalone (Hoạt động Độc lập Tuyệt đối)
+- Không phụ thuộc vào kết nối mạng khi gọi skill. Tất cả 59 skills đã được tích hợp sẵn cục bộ trong thư mục `skills/`.
+- Clone về máy là chạy ngay lập tức. Bất kỳ thành viên nào trong team hay bất kỳ môi trường CI/CD nào cũng có thể khởi chạy mà không cần cấu hình phức tạp.
+
+### 2. 🤖 Tự Động Điều Phối (Zero Manual Prompts)
+- Người dùng **KHÔNG CẦN** phải nhớ tên skill hay gõ cú pháp slash command lằng nhằng.
+- Bộ não điều phối `AGENTS.md` chứa bảng **Auto-Routing Table 59 dòng** và **Decision Tree**. AI sẽ tự lắng nghe ngôn ngữ tự nhiên của bạn, phân tích mục đích (intent) và tự động triệu hồi đúng chuyên gia vào đúng lúc:
+  - Bạn nói: *"Tôi có ý tưởng làm web đặt bàn"* ➔ AI tự kích hoạt Phase 1 (`brainstorming` + `requirements-interview`).
+  - Bạn nói: *"Thiết kế API cho giỏ hàng"* ➔ AI tự gọi Phase 2 (`api-and-interface-design`).
+  - Bạn nói: *"Quản lý state giỏ hàng và cache danh sách món"* ➔ AI tự gọi Phase 3 (`zustand-state-management` + `tanstack-query-best-practices`).
+  - Bạn nói: *"Có lỗi crash trang thanh toán"* ➔ AI tự kích hoạt Phase 4 (`diagnose-bug` + `debug-issue`).
+  - Bạn nói: *"Viết test luồng thanh toán và gắn CI"* ➔ AI tự gọi Phase 5 & 6 (`playwright-best-practices` + `ci-cd-and-automation`).
+
+### 3. 🛡️ Quy Chuẩn Enterprise Production
+- **Không bao giờ làm bừa (Stage 0 Clarification)**: Luôn làm rõ yêu cầu trước khi gõ code.
+- **Test-Driven & Verification**: Không bao giờ tuyên bố hoàn thành nếu không có bằng chứng test xanh (`verification-before-completion`).
+- **Không Over-engineering**: Tuân thủ triết lý tối giản của Andrej Karpathy (`karpathy-guidelines`).
+
+---
+
+## 🔄 QUY TRÌNH 6 PHA PHÁT TRIỂN (THE 6-PHASE ENTERPRISE LIFECYCLE)
+
+```mermaid
+flowchart LR
+    P1["1. Khám Phá\n(Discover & Spec)\n4 skills"] --> P2["2. Kiến Trúc & UI\n(Design & Arch)\n16 skills"]
+    P2 --> P3["3. Phân Rã & State\n(Plan & State)\n10 skills"]
+    P3 --> P4["4. Lập Trình Chuẩn\n(Execute & Code)\n11 skills"]
+    P4 --> P5["5. Rà Soát & E2E\n(Review & QA)\n8 skills"]
+    P5 --> P6["6. Phát Hành & Giám Sát\n(Ship & Observe)\n8 skills"]
+```
+
+### Chi tiết các Pha:
+
+| Pha | Vai trò trong Tổng Công Ty | Nhiệm vụ chính | Kỹ năng tiêu biểu |
+|---|---|---|---|
+| **Phase 1: Discover & Spec** | Ban Giám đốc Sản phẩm & BA | Khám phá ý tưởng thô, phỏng vấn bóc tách yêu cầu, thách thức các giả định mơ hồ. | `brainstorming`, `requirements-interview`, `grill-me`, `idea-expansion` |
+| **Phase 2: Design & Arch** | Ban Kiến trúc Sư & Giám đốc UI/UX | Thiết kế giao diện (Apple, Web, Mobile), thiết kế hợp đồng API Type-safe (Zod), kiến trúc Supabase DB & RLS. | `api-and-interface-design`, `ui-ux-pro-max`, `apple-design`, `supabase`, `design-and-document` |
+| **Phase 3: Plan & State** | Lead Engineer & Technical PM | Lập kế hoạch phân rã task, thiết kế Server Data Cache, Client State Store, cấu trúc đa ngôn ngữ. | `tanstack-query-best-practices`, `zustand-state-management`, `react-state-management`, `internationalization-i18n`, `plan-tasks` |
+| **Phase 4: Execute & Code** | Senior Fullstack Developers | Lập trình từng bước nhỏ (Incremental), TDD Red-Green-Refactor, tối ưu render React/Vite, xử lý bug triệt để. | `tdd-workflow`, `incremental-delivery`, `vercel-react-best-practices`, `diagnose-bug`, `build-error-resolver` |
+| **Phase 5: Review & QA** | Ban Kiểm thử & An ninh Mạng | Chạy test trình duyệt E2E tự động (Playwright), rà soát bảo mật RLS/XSS, phân tích bán kính ảnh hưởng mã nguồn. | `playwright-best-practices`, `code-review`, `security-audit`, `verification-before-completion`, `simplify-code` |
+| **Phase 6: Ship & Observe** | Kỹ sư DevOps, SRE & Release Manager | Tự động hóa pipeline GitHub Actions CI/CD, gắn Sentry/Tracing theo dõi crash runtime, audit SEO, deploy Vercel. | `ci-cd-and-automation`, `observability-and-instrumentation`, `deploy-to-vercel`, `seo-audit`, `audit-website` |
+
+---
+
+## 📋 DANH MỤC 59 KỸ NĂNG (THE 59-SKILL CATALOG)
+
+### 1. Khám Phá & Sản Phẩm (4 Skills)
+- `brainstorming`: Khám phá ý tưởng thành đặc tả chi tiết.
+- `requirements-interview`: Phỏng vấn bóc tách yêu cầu nghiệp vụ chuyên sâu.
+- `idea-expansion`: Mở rộng góc nhìn và phân tích đa phương án.
+- `grill-me`: Thách thức và phản biện gay gắt kế hoạch thiết kế.
+
+### 2. Thiết Kế Giao Diện & Trải Nghiệm (11 Skills)
+- `ui-ux-pro-max`: Bách khoa toàn thư UI/UX (50+ styles, 161 bảng màu, 57 font pairings).
+- `frontend-design`: Thiết kế giao diện đặc sắc, cao cấp, phi khuôn mẫu.
+- `apple-design`: Ngôn ngữ thiết kế tối giản, thanh lịch chuẩn Apple HIG.
+- `liquid-glass-frosted`: Hiệu ứng kính mờ (Frosted glass) với độ khúc xạ chuẩn xác.
+- `motion-3d`: Hoạt ảnh 3D cao cấp (Three.js, WebGL, Shader, GSAP).
+- `canvas-design`: Tạo tác phẩm nghệ thuật, banner, đồ họa vector bằng mã nguồn.
+- `huashu-design`: Thiết kế 3 hướng prototype độ trung thực cao để lựa chọn.
+- `web-design` & `web-design-guidelines`: Kiểm tra khả năng tiếp cận và chuẩn web WCAG.
+- `responsive-design`: Bố cục đáp ứng đa màn hình với Container Queries.
+- `mobile-ios-design`: Thiết kế giao diện iOS chuẩn SwiftUI/HIG.
+- `mobile-android-design`: Thiết kế giao diện Android chuẩn Material Design 3.
+
+### 3. Kiến Trúc Hệ Thống & Hợp Đồng Dữ Liệu (5 Skills)
+- `api-and-interface-design`: Thiết kế chuẩn REST/RPC, Zod schemas và type contracts (Addy Osmani - Google).
+- `design-and-document`: Lưu trữ kiến trúc hệ thống (ADR) và mô hình miền (CONTEXT.md).
+- `improve-architecture`: Phát hiện module ghép nối chặt và tái cấu trúc hệ thống.
+- `supabase`: Quản trị toàn diện Supabase (Database, Auth, Storage, Edge Functions, RLS).
+- `supabase-postgres-best-practices`: Tối ưu hóa truy vấn Postgres, index và cấu hình bảo mật.
+
+### 4. Quản Lý State, Caching & Lập Kế Hoạch (10 Skills)
+- `tanstack-query-best-practices`: Chiến lược server cache, revalidation và optimistic updates.
+- `zustand-state-management`: Kiến trúc client state store nhẹ, tách slices và middleware persist.
+- `react-state-management`: Quản lý kiến trúc state React tổng thể (Context vs Store).
+- `internationalization-i18n`: Cấu trúc đa ngôn ngữ i18n, quản lý file dịch thuật và locale format.
+- `plan-tasks`: Phân rã epic thành chuỗi nhiệm vụ logic, tuần tự.
+- `using-git-worktrees`: Tạo không gian làm việc cô lập an toàn bằng Git Worktrees.
+- `dispatching-parallel-agents`: Điều phối nhiều sub-agents chạy song song độc lập.
+- `karpathy-guidelines`: Quy tắc tối giản của Andrej Karpathy, chặn đứng over-engineering.
+- `explore-codebase`: Khám phá mã nguồn bằng Knowledge Graph.
+- `find-skills`: Tìm kiếm và bổ sung kỹ năng mới từ hệ sinh thái open agent skills.
+
+### 5. Lập Trình & Sửa Lỗi Chuyên Sâu (11 Skills)
+- `incremental-delivery`: Triển khai mã nguồn theo từng lát cắt nhỏ, kiểm thử chắc chắn.
+- `subagent-driven-development`: Thực thi kế hoạch lập trình thông qua sub-agents chuyên biệt.
+- `tdd-workflow`: Quy trình phát triển hướng kiểm thử Red-Green-Refactor (độ phủ 80%+).
+- `vercel-react-best-practices`: Tối ưu hóa hiệu năng render, bundle size từ Vercel Engineering.
+- `vercel-react-view-transitions`: Hiệu ứng chuyển trang mượt mà với View Transition API.
+- `react-native-design`: Lập trình thành phần React Native và Reanimated animations.
+- `vercel-react-native-skills`: Tối ưu danh sách mượt mà (FlashList) và bộ nhớ mobile.
+- `diagnose-bug`: Quy trình bắt bệnh phần mềm 6 bước nghiêm ngặt.
+- `debug-issue`: Truy vết lỗi bằng biểu đồ tri thức mã nguồn.
+- `build-error-resolver`: Khắc phục lỗi TypeScript / Vite build thần tốc với diff tối thiểu.
+- `refactor-safely`: Kế hoạch tái cấu trúc an toàn dựa trên đồ thị phụ thuộc.
+
+### 6. Rà Soát Chất Lượng & Kiểm Thử QA (8 Skills)
+- `playwright-best-practices`: Kiểm thử tự động E2E trên trình duyệt thật (Currents-dev).
+- `code-review`: Rà soát mã nguồn đa chiều trước khi merge.
+- `review-changes`: Đánh giá bán kính ảnh hưởng của pull request.
+- `simplify-code`: Đơn giản hóa mã nguồn, loại bỏ trừu tượng thừa.
+- `security-audit`: Rà soát lỗ hổng an ninh (OWASP, SQLi, XSS, RLS leak).
+- `tester`: Bảng kiểm soát chất lượng và kế hoạch rollback trước khi phát hành.
+- `verification-before-completion`: Bắt buộc cung cấp bằng chứng thực tế trước khi kết thúc task.
+- `document-decisions`: Ghi nhận quyết định kỹ thuật vào tài liệu dự án.
+
+### 7. DevOps, CI/CD, Giám Sát & Vận Hành (8 Skills)
+- `ci-cd-and-automation`: Thiết lập GitHub Actions, kiểm thử tự động trên PR, semantic release (Addy Osmani).
+- `observability-and-instrumentation`: Gắn Sentry, OpenTelemetry, thu thập log và cảnh báo runtime lỗi (Addy Osmani).
+- `deploy-to-vercel`: Triển khai ứng dụng lên nền tảng Vercel trong tích tắc.
+- `vercel-cli-with-tokens`: Tự động hóa thao tác Vercel bằng Token CI/CD.
+- `audit-website`: Quét toàn diện website với hơn 260 quy tắc (Squirrelscan).
+- `seo-audit`: Tối ưu hóa SEO kỹ thuật, thẻ Meta, Open Graph và Schema JSON-LD.
+- `finishing-a-development-branch`: Đóng gói nhánh phát triển, squash commit và tạo PR chuẩn mực.
+- `using-superpowers`: Khởi tạo công cụ và điều phối meta khi bắt đầu phiên làm việc.
+
+### 8. Meta Communication (2 Skills)
+- `using-superpowers`: Khởi tạo cấu hình và kích hoạt các giác quan AI.
+- `caveman-mode`: Chế độ giao tiếp siêu ngắn gọn, tiết kiệm 75% tokens khi cần.
+
+---
+
+## ⚡ HƯỚNG DẪN CÀI ĐẶT & SỬ DỤNG (QUICK START)
+
+### Cài đặt vào Dự Án của bạn
+
+Chỉ cần sao chép toàn bộ thư mục này hoặc clone vào dự án của bạn:
 
 ```bash
-# Clone this repo
-git clone https://github.com/YOUR_USERNAME/agent-workflow-skill.git
+# Clone bộ kỹ năng vào thư mục gốc của dự án
+git clone https://github.com/Snowbal-Dev/agent-workflow.git ./agent-workflow
 
-# Copy skills into your project
-cp -r agent-workflow-skill/skills/ YOUR_PROJECT/.agents/skills/
-cp -r agent-workflow-skill/rules/ YOUR_PROJECT/.agents/rules/
-cp agent-workflow-skill/AGENTS.md YOUR_PROJECT/AGENTS.md
-cp agent-workflow-skill/GEMINI.md YOUR_PROJECT/GEMINI.md
-cp agent-workflow-skill/CLAUDE.md YOUR_PROJECT/CLAUDE.md
-cp agent-workflow-skill/.cursorrules YOUR_PROJECT/.cursorrules
+# Hoặc copy thư mục skills và các file rules vào dự án của bạn
+cp -r ./agent-workflow/skills ./.agents/skills
+cp ./agent-workflow/AGENTS.md ./AGENTS.md
 ```
 
-### Method 2: Use as git submodule
+### Tương Thích Với Mọi Nền Tảng AI
 
-```bash
-cd YOUR_PROJECT
-git submodule add https://github.com/YOUR_USERNAME/agent-workflow-skill.git .agents
-```
-
-### Method 3: Direct download (Windows)
-
-```powershell
-git clone https://github.com/YOUR_USERNAME/agent-workflow-skill.git
-robocopy agent-workflow-skill\skills YOUR_PROJECT\.agents\skills /E
-copy agent-workflow-skill\AGENTS.md YOUR_PROJECT\AGENTS.md
-copy agent-workflow-skill\GEMINI.md YOUR_PROJECT\GEMINI.md
-```
+- **Antigravity / Gemini**: Đã cấu hình sẵn `GEMINI.md` và tải tự động qua `.agents/skills`.
+- **Claude Code**: Tự động nhận diện `CLAUDE.md` và nạp toàn bộ 59 skills từ `skills/`.
+- **Cursor IDE / Windsurf**: Tự động nhận diện `.cursorrules` và `.windsurfrules`.
+- **OpenAI Codex / GPT-4o / Grok**: Đọc chỉ dẫn tối cao tại `AGENTS.md`.
 
 ---
 
-## 🔧 Required: MCP Server Setup / Bắt Buộc: Cài MCP Server
+## 🔌 CÀI ĐẶT 2 MCP SERVERS BẮT BUỘC (CRITICAL ENGINES)
 
-These MCP servers supercharge the workflow. Without them, skills still work
-but are slower and less intelligent.
+Để "Tổng Công Ty AI" phát huy 100% sức mạnh, hãy cài đặt 2 máy chủ MCP sau:
 
-### 1. code-review-graph (Knowledge Graph)
-
-Builds a dependency graph for instant code navigation and impact analysis.
-
-> **Full guide**: See [`mcp/code-review-graph-setup.md`](mcp/code-review-graph-setup.md)
-
-Quick install:
-```bash
-npm install -g code-review-graph
-```
-
-### 2. Supabase MCP (Database Access)
-
-Direct AI access to your Supabase schema, queries, and migrations.
-
-> **Full guide**: See [`mcp/supabase-setup.md`](mcp/supabase-setup.md)
-
-Quick install:
-```bash
-npm install -g @supabase/mcp-server-supabase
-```
-
-> **Don't worry if you skip this step.** The AI will remind you on first
-> interaction if MCP servers are missing. Skills gracefully fall back to
-> manual methods (grep, SQL files, CLI commands).
->
-> **Đừng lo nếu bỏ qua bước này.** AI sẽ tự nhắc bạn trong lần tương tác
-> đầu tiên nếu thiếu MCP server. Các skill tự động chuyển sang phương pháp
-> thủ công (grep, file SQL, lệnh CLI).
+1. **`code-review-graph` (Knowledge Graph Engine)**
+   - *Tác dụng*: Vẽ biểu đồ tri thức toàn bộ codebase, giúp AI đọc code nhanh gấp 10 lần và tiết kiệm 80% token.
+   - *Hướng dẫn chi tiết*: [mcp/code-review-graph-setup.md](mcp/code-review-graph-setup.md)
+2. **`supabase` (Database MCP Engine)**
+   - *Tác dụng*: Cho phép AI truy vấn schema, kiểm tra RLS, chạy migration trực tiếp vào database.
+   - *Hướng dẫn chi tiết*: [mcp/supabase-setup.md](mcp/supabase-setup.md)
 
 ---
 
-## 🧠 The 6-Phase Workflow / Quy Trình 6 Giai Đoạn
+## 📄 LICENSE
 
-```
-Phase 1: DISCOVER ──> Phase 2: DESIGN ──> Phase 3: PLAN
-(4 skills)            (15 skills)          (6 skills)
-Brainstorm ideas      Supabase schema      Break into tasks
-Interview user        UI/UX design         Git worktrees
-Expand options        Architecture docs    Parallel dispatch
-Stress-test plan      Design prototypes    Explore codebase
-
-Phase 4: EXECUTE ──> Phase 5: REVIEW ──> Phase 6: SHIP
-(11 skills)           (7 skills)           (6 skills)
-TDD + incremental     Code review          SEO optimization
-React best practices  Security audit       Site audit (260+)
-Diagnose bugs         Refactor safely      Deploy to Vercel
-Build error fixes     Verify completion    Document decisions
-```
-
-### Small vs Large Tasks / Tác Vụ Nhỏ vs Lớn
-
-- **Bug fix**: Phase 4 (diagnose) → Phase 5 (verify). Done in 5 minutes.
-- **New feature**: All 6 phases. Takes hours to days.
-- **Code review**: Phase 5 only.
-- **Deploy**: Phase 6 only.
-
-The AI automatically determines which phases to run based on your request.
-
----
-
-## 📁 Directory Structure / Cấu Trúc Thư Mục
-
-```
-agent-workflow-skill/
-├── AGENTS.md                    # Universal AI instructions (ALL agents read this)
-├── GEMINI.md                    # Antigravity/Gemini-specific config
-├── CLAUDE.md                    # Claude Code-specific config
-├── .cursorrules                 # Cursor config
-├── .windsurfrules               # Windsurf config
-├── README.md                    # This file (human documentation)
-│
-├── skills/                      # 51 AI agent skills
-│   ├── brainstorming/           # Phase 1: Discovery
-│   ├── requirements-interview/  # Phase 1: Deep BA interview
-│   ├── idea-expansion/          # Phase 1: Divergent thinking
-│   ├── grill-me/                # Phase 1: Stress-test assumptions
-│   ├── design-and-document/     # Phase 2: ADR + CONTEXT.md
-│   ├── improve-architecture/    # Phase 2: Module boundary analysis
-│   ├── supabase/                # Phase 2: Full Supabase design
-│   ├── ui-ux-pro-max/           # Phase 2: Design system reference
-│   ├── frontend-design/         # Phase 2: Distinctive visual design
-│   ├── plan-tasks/              # Phase 3: Task decomposition
-│   ├── using-git-worktrees/     # Phase 3: Workspace isolation
-│   ├── dispatching-parallel-agents/ # Phase 3: Subagent orchestration
-│   ├── incremental-delivery/    # Phase 4: Verified small steps
-│   ├── tdd-workflow/            # Phase 4: Red-Green-Refactor
-│   ├── diagnose-bug/            # Phase 4: Bug diagnosis loop
-│   ├── code-review/             # Phase 5: Multi-axis review
-│   ├── security-audit/          # Phase 5: Vulnerability scanning
-│   ├── verification-before-completion/ # Phase 5: Evidence gate
-│   ├── seo-audit/               # Phase 6: SEO optimization
-│   ├── deploy-to-vercel/        # Phase 6: Vercel deployment
-│   ├── finishing-a-development-branch/ # Phase 6: Clean merge
-│   └── ... (51 total)
-│
-├── rules/                       # Behavioral rules for AI
-│   ├── disciplined-reasoning.md
-│   └── ...
-│
-├── mcp/                         # MCP server setup guides
-│   ├── code-review-graph-setup.md
-│   └── supabase-setup.md
-│
-└── templates/                   # Config file templates (future)
-```
-
----
-
-## 🎯 Skill Catalog / Danh Mục Kỹ Năng
-
-### Phase 1: Product Discovery (4 skills)
-
-| Skill | Trigger / Khi nào dùng |
-|---|---|
-| `brainstorming` | New ideas, "build me X" |
-| `requirements-interview` | Unclear requirements |
-| `idea-expansion` | Need more options |
-| `grill-me` | Stress-test a plan |
-
-### Phase 2: Architecture & Design (15 skills)
-
-| Skill | Trigger / Khi nào dùng |
-|---|---|
-| `design-and-document` | Architecture decisions |
-| `improve-architecture` | Module boundaries |
-| `supabase` | Database schema, Auth, RLS |
-| `supabase-postgres-best-practices` | Query optimization |
-| `ui-ux-pro-max` | Design system reference |
-| `frontend-design` | Distinctive visual design |
-| `apple-design` | Apple HIG style |
-| `web-design` | Web standards |
-| `web-design-guidelines` | Accessibility audit |
-| `responsive-design` | Multi-screen layouts |
-| `mobile-ios-design` | iOS patterns for RN |
-| `mobile-android-design` | Material Design 3 for RN |
-| `liquid-glass-frosted` | Frosted glass effects |
-| `motion-3d` | 3D animations, Three.js |
-| `canvas-design` | Graphic design in code |
-| `huashu-design` | HTML prototyping |
-
-### Phase 3: Planning & Isolation (6 skills)
-
-| Skill | Trigger / Khi nào dùng |
-|---|---|
-| `plan-tasks` | Breaking work into tasks |
-| `using-git-worktrees` | Isolated workspace |
-| `dispatching-parallel-agents` | Parallel task execution |
-| `karpathy-guidelines` | Anti-overengineering |
-| `explore-codebase` | Code navigation |
-| `find-skills` | Discover new skills |
-
-### Phase 4: Implementation (11 skills)
-
-| Skill | Trigger / Khi nào dùng |
-|---|---|
-| `incremental-delivery` | Small verified steps |
-| `subagent-driven-development` | Delegated execution |
-| `tdd-workflow` | Tests-first development |
-| `vercel-react-best-practices` | React performance |
-| `vercel-react-view-transitions` | Page transitions |
-| `react-native-design` | RN components |
-| `vercel-react-native-skills` | Mobile performance |
-| `diagnose-bug` | Hard bug diagnosis |
-| `debug-issue` | Dependency tracing |
-| `build-error-resolver` | Build error fixes |
-
-### Phase 5: Review & Hardening (7 skills)
-
-| Skill | Trigger / Khi nào dùng |
-|---|---|
-| `code-review` | Pre-merge review |
-| `review-changes` | Diff impact analysis |
-| `simplify-code` | Remove complexity |
-| `refactor-safely` | Safe refactoring |
-| `security-audit` | Vulnerability scan |
-| `tester` | Launch readiness |
-| `verification-before-completion` | Evidence gate |
-
-### Phase 6: Ship & Deploy (6 skills)
-
-| Skill | Trigger / Khi nào dùng |
-|---|---|
-| `seo-audit` | SEO optimization |
-| `audit-website` | Full site audit |
-| `deploy-to-vercel` | Vercel deployment |
-| `vercel-cli-with-tokens` | CLI automation |
-| `finishing-a-development-branch` | Branch cleanup |
-| `document-decisions` | Architecture docs |
-
-### Meta / Universal (2 skills)
-
-| Skill | Trigger / Khi nào dùng |
-|---|---|
-| `using-superpowers` | Session initialization |
-| `caveman-mode` | Compressed responses |
-
----
-
-## 🤝 Supported Platforms / Nền Tảng Hỗ Trợ
-
-| Platform | Config File | Status |
-|---|---|---|
-| Antigravity (Google) | `GEMINI.md` | ✅ Full support |
-| Claude Code (Anthropic) | `CLAUDE.md` | ✅ Full support |
-| Cursor | `.cursorrules` | ✅ Full support |
-| Windsurf | `.windsurfrules` | ✅ Full support |
-| Codex (OpenAI) | `AGENTS.md` | ✅ Full support |
-| GPT / ChatGPT | `AGENTS.md` | ✅ Via AGENTS.md |
-| Grok (xAI) | `AGENTS.md` | ✅ Via AGENTS.md |
-| Any agent reading AGENTS.md | `AGENTS.md` | ✅ Universal |
-
----
-
-## 📄 License
-
-MIT License. Use freely in any project.
-
----
-
-## 🙏 Credits / Nguồn Gốc
-
-Inspired by:
-- [obra/superpowers](https://github.com/obra/superpowers) — Multi-harness skill system
-- [affaan-m/ECC](https://github.com/affaan-m/ECC) — Engineering Coding Companion
-- Real-world production experience with React + Supabase + Vercel stack
-
-Built with ❤️ for developers who want their AI assistants to truly understand
-the full software development lifecycle.
+Phát hành dưới giấy phép mã nguồn mở [MIT License](LICENSE).
+Tự do sử dụng, chỉnh sửa và đóng gói cho các dự án thương mại hoặc cá nhân.

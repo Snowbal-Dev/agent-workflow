@@ -1,66 +1,45 @@
 ﻿# Skills Directory / Thư Mục Kỹ Năng
 
-This directory contains 51 AI agent skills organized into 6 workflow phases.
+This directory contains **59 AI agent skills** organized into a 6-phase enterprise software development workflow.
 
-## Name Mapping / Bảng Đổi Tên
+## Overview / Tổng Quan
 
-Some skills were originally named in Vietnamese. This table maps old names
-to new English names for reference:
+| Phase | Count | Core Focus |
+|---|:---:|---|
+| **Phase 1: Discover & Spec** | 4 | Ideation, requirements, edge-case probing, stress testing |
+| **Phase 2: Design & Architecture** | 16 | UI/UX design systems, Apple/Material HIG, Zod API contracts, DB schema |
+| **Phase 3: Planning, State & Setup** | 10 | Task breakdown, TanStack Query cache, Zustand store, i18n, worktrees |
+| **Phase 4: Execute & Implement** | 11 | Incremental delivery, TDD, React/Vite performance, bug diagnosis |
+| **Phase 5: Review, Hardening & QA** | 8 | Playwright E2E browser automation, code review, security audit, verification |
+| **Phase 6: Ship, CI/CD & Operations**| 8 | GitHub Actions, Sentry/Observability, Vercel deployment, SEO audit |
+| **Universal Meta** | 2 | Tool initialization, caveman communication mode |
+| **Total** | **59** | **Complete All-in-One Standalone Senior AI Agency** |
 
-| Old Name (Vietnamese) | New Name (English) | Phase |
+## Name Mapping / Bảng Ánh Xạ Tên Tiếng Việt ➔ Tiếng Anh
+
+| Old Name (Vietnamese) | Standardized Name (English) | Role |
 |---|---|---|
-| `bat-benh-sua-loi` | `diagnose-bug` | Phase 4: Implementation |
-| `bien-ai-thanh-BA` | `requirements-interview` | Phase 1: Discovery |
-| `cai-thien-cau-truc` | `improve-architecture` | Phase 2: Design |
-| `danh-gia-code` | `code-review` | Phase 5: Review |
-| `di-theo-lo-trinh` | `incremental-delivery` | Phase 4: Implementation |
-| `don-gian-hoa-code` | `simplify-code` | Phase 5: Review |
-| `kiem-tra-bao-mat` | `security-audit` | Phase 5: Review |
-| `len-ke-hoach` | `plan-tasks` | Phase 3: Planning |
-| `mo-rong-idea` | `idea-expansion` | Phase 1: Discovery |
-| `phong-van-toi` | `grill-me` | Phase 1: Discovery |
-| `thiet-ke-va-luu-docs` | `design-and-document` | Phase 2: Design |
-| `tra-loi-ngan-gon` | `caveman-mode` | Universal Meta |
-| `viet-tai-lieu-khi-thay-doi-cau-truc-code` | `document-decisions` | Phase 6: Ship |
+| `bat-benh-sua-loi` | `diagnose-bug` | 6-step root cause analysis |
+| `bien-ai-thanh-BA` | `requirements-interview` | Deep requirements extraction |
+| `cai-thien-cau-truc` | `improve-architecture` | Decoupling & module boundaries |
+| `danh-gia-code` | `code-review` | Multi-axis code review |
+| `di-theo-lo-trinh` | `incremental-delivery` | Thin, verified slices |
+| `don-gian-hoa-code` | `simplify-code` | Eliminate needless complexity |
+| `kiem-tra-bao-mat` | `security-audit` | Hardening & vulnerability scan |
+| `len-ke-hoach` | `plan-tasks` | Work breakdown structure |
+| `mo-rong-idea` | `idea-expansion` | Divergent/convergent ideation |
+| `phong-van-toi` | `grill-me` | Relentless design interrogation |
+| `thiet-ke-va-luu-docs` | `design-and-document` | Architectural decision records |
+| `tra-loi-ngan-gon` | `caveman-mode` | Ultra-concise communication |
+| `viet-tai-lieu-khi-thay-doi-cau-truc-code` | `document-decisions` | Living documentation updates |
 
-## How Skills Work / Cách Skill Hoạt Động
+## Newly Integrated Enterprise Skills / Kỹ Năng Mới Bổ Sung
 
-Each skill directory contains a `SKILL.md` file with:
-1. **YAML frontmatter**: `name` and `description` (used for auto-discovery)
-2. **Instructions**: Step-by-step guide for the AI to follow
-
-AI agents automatically discover and invoke skills based on the routing
-table in `AGENTS.md`. Users do not need to manually call skills.
-
-## Phase Organization / Tổ Chức Theo Giai Đoạn
-
-### Phase 1: Product Discovery (4)
-brainstorming, requirements-interview, idea-expansion, grill-me
-
-### Phase 2: Architecture & Design (15+)
-design-and-document, improve-architecture, supabase,
-supabase-postgres-best-practices, ui-ux-pro-max, frontend-design,
-apple-design, web-design, web-design-guidelines, responsive-design,
-mobile-ios-design, mobile-android-design, liquid-glass-frosted,
-motion-3d, canvas-design, huashu-design
-
-### Phase 3: Planning & Isolation (6)
-plan-tasks, using-git-worktrees, dispatching-parallel-agents,
-karpathy-guidelines, explore-codebase, find-skills
-
-### Phase 4: Implementation (11)
-incremental-delivery, subagent-driven-development, tdd-workflow,
-vercel-react-best-practices, vercel-react-view-transitions,
-react-native-design, vercel-react-native-skills,
-diagnose-bug, debug-issue, build-error-resolver
-
-### Phase 5: Review & Hardening (7)
-code-review, review-changes, simplify-code, refactor-safely,
-security-audit, tester, verification-before-completion
-
-### Phase 6: Ship & Deploy (6)
-seo-audit, audit-website, deploy-to-vercel, vercel-cli-with-tokens,
-finishing-a-development-branch, document-decisions
-
-### Universal Meta (2)
-using-superpowers, caveman-mode
+1. `api-and-interface-design`: Addy Osmani (Google) — Type-safe API contracts, REST/RPC, Zod schemas.
+2. `ci-cd-and-automation`: Addy Osmani (Google) — GitHub Actions CI/CD workflows, automated PR testing.
+3. `observability-and-instrumentation`: Addy Osmani (Google) — Runtime logging, Sentry error alerts, metrics & tracing.
+4. `tanstack-query-best-practices`: deckardger — Server state caching, background invalidation, optimistic updates.
+5. `zustand-state-management`: mindrally — Lightweight client state store, slices, persist middleware.
+6. `react-state-management`: wshobson — React global state architecture (Context vs Store vs Hooks).
+7. `internationalization-i18n`: mindrally — Multi-language localization, translation namespaces, locale formatting.
+8. `playwright-best-practices`: currents-dev — End-to-end browser automation, user journey tests.

@@ -1,16 +1,22 @@
 ﻿{
   "name": "agent-workflow-skill",
-  "version": "1.0.0",
-  "description": "51 AI agent skills organized into a 6-phase development workflow for React + Vite + Supabase + Vercel",
+  "version": "1.1.0",
+  "description": "59 AI agent skills organized into a 6-phase enterprise development workflow for React + Vite + Supabase + Vercel. All-in-One Standalone AI Software Agency.",
   "keywords": [
     "ai-agent",
     "skills",
     "workflow",
+    "enterprise",
     "react",
     "react-native",
     "vite",
     "supabase",
     "vercel",
+    "tanstack-query",
+    "zustand",
+    "playwright",
+    "ci-cd",
+    "sentry",
     "claude",
     "gemini",
     "cursor",
@@ -22,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Snowbal-Dev/agent-workflow-skill"
+    "url": "https://github.com/Snowbal-Dev/agent-workflow.git"
   },
   "files": [
     "skills/",
