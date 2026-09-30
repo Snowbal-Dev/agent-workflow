@@ -1,381 +1,310 @@
-﻿# 🏢 Agent Workflow Skill
-## Một Tổng Công Ty Agents AI Độc Lập Chuẩn Enterprise Production
-### The All-in-One Standalone AI Agent Software Company (59 Skills · 6 Phases)
+﻿# 🏢 Agent Workflow
+## The Complete AI Agent Software Engineering Enterprise
+### 59 Production-Grade Skills · 6-Phase Lifecycle · 5 Operational Micro-Loops · 100% Standalone Offline
 
-[![Skills](https://img.shields.io/badge/skills-59-blue.svg)]()
+[![Skills](https://img.shields.io/badge/skills-59%20production--grade-blue.svg)]()
 [![Standard](https://img.shields.io/badge/standard-Enterprise%20Production-gold.svg)]()
 [![Architecture](https://img.shields.io/badge/architecture-100%25%20Standalone%20Offline-green.svg)]()
 [![Stack](https://img.shields.io/badge/stack-React%20%2B%20Vite%20%2B%20Supabase%20%2B%20Vercel-success.svg)]()
 [![Agents](https://img.shields.io/badge/compatibility-Gemini%20%7C%20Claude%20%7C%20Cursor%20%7C%20Codex%20%7C%20GPT--4o%20%7C%20Grok-purple.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
 ---
 
-> **English Summary**: `agent-workflow-skill` is a battle-tested, all-in-one AI agent operating system.
-> It packages **59 production-grade engineering skills** into a cohesive **6-phase development lifecycle**,
-> functioning as an entire senior software engineering company inside your AI coding assistant.
-> It features **100% standalone offline capability**, an **autonomous routing engine** (`AGENTS.md`),
-> and native support for Antigravity, Claude Code, Cursor, Windsurf, OpenAI Codex, and Grok.
+## ⚡ Executive Summary
+
+**Agent Workflow** transforms your AI coding assistant (Claude Code, Cursor, Antigravity, Windsurf, or Codex) from a simple autocomplete bot into an **entire Senior Software Engineering Organization**.
+
+Instead of writing unverified code, hallucinating APIs, or suppressing TypeScript errors, your agent adheres to an **autonomous 6-phase development lifecycle**, **5 operational micro-loops**, and **immutable constitutional engineering rules** inspired by Andrej Karpathy (Tesla/OpenAI) and Addy Osmani (Google).
+
+All **59 battle-tested skills** are packaged **100% standalone offline** — clone and run with zero external dependencies.
+
+> 🇻🇳 **Dành cho lập trình viên Việt Nam**: `agent-workflow` đóng gói cả một "Tổng Công Ty 59 AI Agents Senior" hoạt động hoàn toàn độc lập 100% offline. Với quy trình 6 pha Enterprise, 5 vòng lặp vi mô và luật thép chống code ẩu (Karpathy Guidelines + Strict TypeScript), AI sẽ tự động lắng nghe ngôn ngữ tự nhiên để kích hoạt đúng chuyên gia mà bạn không cần phải gõ câu lệnh hay nhớ tên skill thủ công.
 
 ---
 
-## 🌟 TẠI SAO ĐÂY LÀ "CẢ MỘT TỔNG CÔNG TY AI SENIOR"?
-
-Hầu hết mọi người khi dùng AI thường chỉ dừng lại ở việc gõ prompt lẻ tẻ hoặc cài một vài snippet rời rạc. Hậu quả là: AI sinh code cẩu thả, không có kiến trúc, không kiểm thử, dễ vỡ và không thể đưa vào production thực tế.
-
-**`agent-workflow-skill` giải quyết triệt để vấn đề này.** Bộ khung này tổ chức lại AI của bạn hoạt động chính xác như một **Công ty Công nghệ Cấp Cao (Senior Digital Agency / Tech Enterprise)** với đầy đủ các ban ngành chuyên trách:
+## 🏛️ The AI Software Agency Architecture
 
 ```
                           ┌───────────────────────────────────────────────┐
-                          │   🏢 TỔNG CÔNG TY AI SOFTWARE ENGINEERING     │
-                          │   (59 Chuyên Gia Cao Cấp · 6 Giai Đoạn Chuẩn) │
+                          │   🏢 ENTERPRISE AI SOFTWARE AGENCY (v1.1.0)   │
+                          │   (59 Specialized Skills · 7 Departments)     │
                           └──────────────────────┬────────────────────────┘
                                                  │
       ┌──────────────────┬───────────────────────┼───────────────────────┬──────────────────┐
       │                  │                       │                       │                  │
 ┌─────▼──────┐    ┌──────▼──────┐         ┌──────▼──────┐         ┌──────▼──────┐    ┌──────▼──────┐
-│ 🎯 Ban PM  │    │ 🏛️ Ban Kiến │         │ 🎨 Ban Thiết│         │ ⚛️ Khối Lập  │    │ 🚀 Ban      │
-│ & BA       │    │ trúc Sư     │         │ kế UI/UX    │         │ trình Full  │    │ DevOps, CI  │
-│ Sản Phẩm   │    │ Hệ Thống    │         │ & Design    │         │ Frontend/DB │    │ & Vận Hành  │
+│ 🎯 Product │    │ 🏛️ System   │         │ 🎨 UI/UX    │         │ ⚛️ Fullstack│    │ 🚀 DevOps & │
+│ Management │    │ Architecture│         │ & Design    │         │ Engineering │    │ SRE Ops     │
+│ & B.A.     │    │ & DBAs      │         │ Systems     │         │ & QA        │    │             │
 └─────┬──────┘    └──────┬──────┘         └──────┬──────┘         └──────┬──────┘    └──────┬──────┘
       │                  │                       │                       │                  │
-  4 Skills           5 Skills                11 Skills               19 Skills          20 Skills
-  - Phỏng vấn        - Domain Design         - 50+ Design Styles     - React/Vite Perf  - GitHub Actions
-  - Brainstorming    - API Contracts (Zod)   - Apple HIG / Glass     - Supabase Backend - Playwright E2E
-  - Làm rõ scope     - Schema & RLS          - 3D Motion Shaders     - TanStack Cache   - Sentry / Tracing
-  - Thách thức plan  - Postgres Tuning       - Mobile HIG Design     - Zustand Store    - Vercel Deploy
+  4 Skills           5 Skills                11 Skills               27 Skills          12 Skills
+  - Requirements     - Domain Design         - 50+ Design Styles     - React/Vite Perf  - GitHub Actions
+  - Ideation         - Zod API Contracts     - Apple HIG / Glass     - Supabase Backend - Playwright E2E
+  - Edge Cases       - Postgres Tuning       - 3D Motion Shaders     - TanStack Cache   - Sentry / Tracing
+  - Stress Testing   - Schema Migrations     - Mobile Native HIG     - Zustand Store    - Vercel Deploy
 ```
 
 ---
 
-## 💎 3 ĐỘT PHÁ CỐT LÕI (CORE ADVANTAGES)
+## 💎 Core Breakthroughs
 
-### 1. 📦 100% All-in-One Standalone (Hoạt động Độc lập Tuyệt đối)
-- Không phụ thuộc vào kết nối mạng khi gọi skill. Tất cả 59 skills đã được tích hợp sẵn cục bộ trong thư mục `skills/`.
-- Clone về máy là chạy ngay lập tức. Bất kỳ thành viên nào trong team hay bất kỳ môi trường CI/CD nào cũng có thể khởi chạy mà không cần cấu hình phức tạp.
+### 1. 📦 100% All-in-One Standalone (Fully Offline)
+Every skill, guideline, template, and reference is bundled locally inside `skills/` and `rules/`. No background npm downloads, no runtime registry dependencies. Your AI functions seamlessly even in air-gapped or restricted environments.
 
-### 2. 🤖 Tự Động Điều Phối (Zero Manual Prompts)
-- Người dùng **KHÔNG CẦN** phải nhớ tên skill hay gõ cú pháp slash command lằng nhằng.
-- Bộ não điều phối `AGENTS.md` chứa bảng **Auto-Routing Table 59 dòng** và **Decision Tree**. AI sẽ tự lắng nghe ngôn ngữ tự nhiên của bạn, phân tích mục đích (intent) và tự động triệu hồi đúng chuyên gia vào đúng lúc:
-  - Bạn nói: *"Tôi có ý tưởng làm web đặt bàn"* ➔ AI tự kích hoạt Phase 1 (`brainstorming` + `requirements-interview`).
-  - Bạn nói: *"Thiết kế API cho giỏ hàng"* ➔ AI tự gọi Phase 2 (`api-and-interface-design`).
-  - Bạn nói: *"Quản lý state giỏ hàng và cache danh sách món"* ➔ AI tự gọi Phase 3 (`zustand-state-management` + `tanstack-query-best-practices`).
-  - Bạn nói: *"Có lỗi crash trang thanh toán"* ➔ AI tự kích hoạt Phase 4 (`diagnose-bug` + `debug-issue`).
-  - Bạn nói: *"Viết test luồng thanh toán và gắn CI"* ➔ AI tự gọi Phase 5 & 6 (`playwright-best-practices` + `ci-cd-and-automation`).
+### 2. 🤖 Autonomous Intent Routing (Zero Prompt Hunting)
+Developers **do not need to remember skill names or slash commands**. The `AGENTS.md` orchestrator continuously monitors user intent and activates the right skills at the right moment:
+- *"I have an idea for a booking platform"* ➔ AI initiates Phase 1 (`brainstorming` + `requirements-interview`).
+- *"Design the checkout API"* ➔ AI triggers Phase 2 (`api-and-interface-design`).
+- *"Cache products and manage cart state"* ➔ AI triggers Phase 3 (`tanstack-query-best-practices` + `zustand-state-management`).
+- *"Fix this memory leak"* ➔ AI triggers Phase 4 (`diagnose-bug` + `debug-issue`).
+- *"Write test suite and automate PR checks"* ➔ AI triggers Phase 5 & 6 (`playwright-best-practices` + `ci-cd-and-automation`).
 
-### 3. 🛡️ Quy Chuẩn Enterprise Production
-- **Không bao giờ làm bừa (Stage 0 Clarification)**: Luôn làm rõ yêu cầu trước khi gõ code.
-- **Test-Driven & Verification**: Không bao giờ tuyên bố hoàn thành nếu không có bằng chứng test xanh (`verification-before-completion`).
-- **Không Over-engineering**: Tuân thủ triết lý tối giản của Andrej Karpathy (`karpathy-guidelines`).
+### 3. 🛡️ Constitutional Engineering Guardrails
+- **Stage 0 Clarification**: The agent refuses to guess requirements; ambiguity is stopped before code is generated.
+- **Strict Anti-Cheat TypeScript**: Absolute prohibition of `any`, `as unknown as T`, `// @ts-ignore`, and `// @ts-nocheck`.
+- **Karpathy Simplicity**: 50 lines of clean code beat 200 lines of premature abstractions.
 
 ---
 
-## 🔄 QUY TRÌNH 6 PHA PHÁT TRIỂN (THE 6-PHASE ENTERPRISE LIFECYCLE)
+## 🔄 The 6-Phase Enterprise Macro-Lifecycle
+
+The macro-workflow guides major features from conception to production release:
 
 ```mermaid
 flowchart LR
-    P1["1. Khám Phá\n(Discover & Spec)\n4 skills"] --> P2["2. Kiến Trúc & UI\n(Design & Arch)\n16 skills"]
-    P2 --> P3["3. Phân Rã & State\n(Plan & State)\n10 skills"]
-    P3 --> P4["4. Lập Trình Chuẩn\n(Execute & Code)\n11 skills"]
-    P4 --> P5["5. Rà Soát & E2E\n(Review & QA)\n8 skills"]
-    P5 --> P6["6. Phát Hành & Giám Sát\n(Ship & Observe)\n8 skills"]
+    P1["1. Discover & Spec\n(4 skills)"] --> P2["2. Design & Arch\n(16 skills)"]
+    P2 --> P3["3. Plan & State\n(10 skills)"]
+    P3 --> P4["4. Execute & Code\n(11 skills)"]
+    P4 --> P5["5. Review & QA\n(8 skills)"]
+    P5 --> P6["6. Ship & Observe\n(8 skills)"]
 ```
 
-### Chi tiết các Pha:
-
-| Pha | Vai trò trong Tổng Công Ty | Nhiệm vụ chính | Kỹ năng tiêu biểu |
+| Phase | Department | Core Mandate | Leading Skills |
 |---|---|---|---|
-| **Phase 1: Discover & Spec** | Ban Giám đốc Sản phẩm & BA | Khám phá ý tưởng thô, phỏng vấn bóc tách yêu cầu, thách thức các giả định mơ hồ. | `brainstorming`, `requirements-interview`, `grill-me`, `idea-expansion` |
-| **Phase 2: Design & Arch** | Ban Kiến trúc Sư & Giám đốc UI/UX | Thiết kế giao diện (Apple, Web, Mobile), thiết kế hợp đồng API Type-safe (Zod), kiến trúc Supabase DB & RLS. | `api-and-interface-design`, `ui-ux-pro-max`, `apple-design`, `supabase`, `design-and-document` |
-| **Phase 3: Plan & State** | Lead Engineer & Technical PM | Lập kế hoạch phân rã task, thiết kế Server Data Cache, Client State Store, cấu trúc đa ngôn ngữ. | `tanstack-query-best-practices`, `zustand-state-management`, `react-state-management`, `internationalization-i18n`, `plan-tasks` |
-| **Phase 4: Execute & Code** | Senior Fullstack Developers | Lập trình từng bước nhỏ (Incremental), TDD Red-Green-Refactor, tối ưu render React/Vite, xử lý bug triệt để. | `tdd-workflow`, `incremental-delivery`, `vercel-react-best-practices`, `diagnose-bug`, `build-error-resolver` |
-| **Phase 5: Review & QA** | Ban Kiểm thử & An ninh Mạng | Chạy test trình duyệt E2E tự động (Playwright), rà soát bảo mật RLS/XSS, phân tích bán kính ảnh hưởng mã nguồn. | `playwright-best-practices`, `code-review`, `security-audit`, `verification-before-completion`, `simplify-code` |
-| **Phase 6: Ship & Observe** | Kỹ sư DevOps, SRE & Release Manager | Tự động hóa pipeline GitHub Actions CI/CD, gắn Sentry/Tracing theo dõi crash runtime, audit SEO, deploy Vercel. | `ci-cd-and-automation`, `observability-and-instrumentation`, `deploy-to-vercel`, `seo-audit`, `audit-website` |
+| **Phase 1: Discover & Spec** | Product & Business Analysis | Unearth hidden requirements, interview edge cases, stress-test core assumptions. | `brainstorming`, `requirements-interview`, `grill-me`, `idea-expansion` |
+| **Phase 2: Design & Arch** | System Architects & Designers | Craft distinct UI systems, type-safe API contracts (Zod), and Supabase schema with RLS. | `api-and-interface-design`, `ui-ux-pro-max`, `apple-design`, `supabase`, `design-and-document` |
+| **Phase 3: Plan & State** | Lead Engineers & PMs | Decompose work, architect Server Cache layers, Client Stores, and i18n localization. | `tanstack-query-best-practices`, `zustand-state-management`, `react-state-management`, `internationalization-i18n`, `plan-tasks` |
+| **Phase 4: Execute & Code** | Senior Fullstack Engineers | Surgical implementation, Test-Driven Development (TDD), render optimization, root-cause bug isolation. | `tdd-workflow`, `incremental-delivery`, `vercel-react-best-practices`, `diagnose-bug`, `build-error-resolver` |
+| **Phase 5: Review & QA** | QA & Security Board | Playwright E2E browser automation, multi-axis code review, RLS leak scans, blast-radius diff analysis. | `playwright-best-practices`, `code-review`, `security-audit`, `verification-before-completion`, `simplify-code` |
+| **Phase 6: Ship & Observe** | DevOps & SRE Engineers | GitHub Actions CI/CD pipelines, runtime error tracking (Sentry), SEO audits, and Vercel edge deployment. | `ci-cd-and-automation`, `observability-and-instrumentation`, `deploy-to-vercel`, `seo-audit`, `audit-website` |
 
 ---
 
----
+## 🔬 The 5 Operational Micro-Loops (Tactical Daily Execution)
 
-## 🔬 HỆ THỐNG WORKFLOW VI MÔ CHI TIẾT (THE MICRO-WORKFLOW ENGINE)
-
-Trong khi **Macro-Workflow (6 Pha)** đóng vai trò là chiếc la bàn chiến lược cho toàn bộ dự án từ A-Z, thì **Micro-Workflow** chính là cỗ máy tác chiến hàng ngày. 
-
-> **90% thời gian bạn làm việc với AI sẽ là các câu lệnh nhỏ:** sửa một con bug, dựng một component, tạo một bảng database, hay viết test. Nếu không có quy trình vi mô, AI sẽ nhảy bổ vào code ẩu và làm hỏng dự án. Dưới đây là **5 Micro-Workflows chuẩn Enterprise** được cài đặt sẵn vào bộ não của AI:
-
----
-
-### 🔄 Micro-Workflow 1: Vòng Lặp Phát Triển Tính Năng / Task Nhỏ (Feature Task Loop)
-Áp dụng khi người dùng yêu cầu: *"Thêm nút like bài viết"*, *"Tạo form đổi mật khẩu"*, *"Thêm bộ lọc tìm kiếm"*.
+While the Macro-Workflow provides strategic alignment, **90% of developer interactions consist of tactical, day-to-day tasks**. The agent executes these via 5 battle-tested micro-loops:
 
 ```mermaid
 flowchart TD
-    M1["1. Làm rõ nhanh (Stage 0)\nrequirements-interview"] --> M2["2. Cách ly nhánh an toàn\nusing-git-worktrees"]
-    M2 --> M3["3. Viết Test trước (Red)\ntdd-workflow"]
-    M3 --> M4["4. Viết Code tối thiểu (Green)\nincremental-delivery + vercel-react"]
-    M4 --> M5["5. Đơn giản hóa & Rà soát\nsimplify-code + code-review"]
-    M5 --> M6["6. Bằng chứng Test xanh\nverification-before-completion"]
-    M6 --> M7["7. Đóng nhánh & Merge PR\nfinishing-a-development-branch"]
+    Task[Incoming Developer Task] --> Check{Classify Task Intent}
+    Check -->|Small Feature / Task| Micro1["Micro-Workflow 1: Feature Task Loop\n(Clarify -> Worktree -> TDD -> Code -> Review -> Verify -> Merge)"]
+    Check -->|Crash / Regression / Hard Bug| Micro2["Micro-Workflow 2: Hard Bug Diagnosis Loop\n(Reproduce -> Minimize -> Hypothesize -> Instrument -> Fix -> Regression Test)"]
+    Check -->|Database / Schema / State| Micro3["Micro-Workflow 3: Data Contract & State Loop\n(Zod API -> Supabase Migration -> Index Tuning -> TanStack Cache -> Zustand)"]
+    Check -->|Component / UI Polish| Micro4["Micro-Workflow 4: UI/UX Crafting Loop\n(3 Prototype Directions -> Design System -> Container Queries -> Glass/3D -> WCAG)"]
+    Check -->|E2E Test / Release PR| Micro5["Micro-Workflow 5: E2E & Release Loop\n(Playwright Headless -> Security Audit -> GitHub Actions CI -> Sentry -> Vercel)"]
 ```
 
-- **Bước 1 — Làm rõ nhanh**: AI đặt câu hỏi làm rõ các trường hợp biên (edge cases) trước khi gõ code.
-- **Bước 2 — Cách ly không gian làm việc**: Tạo nhánh hoặc git worktree độc lập để không làm bẩn code đang chạy.
-- **Bước 3 — Viết Test thất bại trước (TDD Red)**: Viết test case kỳ vọng kết quả, xác nhận test fail.
-- **Bước 4 — Triển khai mã nguồn (TDD Green)**: Viết code tối giản nhất để test pass, tuân thủ render tối ưu của Vercel.
-- **Bước 5 — Tinh giản & Review**: Loại bỏ abstraction thừa thãi, rà soát code theo đa tiêu chí.
-- **Bước 6 — Xác thực bằng chứng**: Bắt buộc chạy lệnh test thực tế và hiển thị output xanh.
-- **Bước 7 — Merge**: Đóng gói commit gọn gàng và hoàn tất nhánh.
+### 1. 🔄 Feature Task Loop (Small Feature / Task Addition)
+- **Step 1 — Rapid Clarification**: Probe edge cases and constraints via `requirements-interview`.
+- **Step 2 — Workspace Isolation**: Create a clean branch or Git worktree via `using-git-worktrees`.
+- **Step 3 — Red Test (TDD)**: Write a failing test proving the requirement via `tdd-workflow`.
+- **Step 4 — Green Code**: Deliver minimal code to pass the test via `incremental-delivery` and `vercel-react-best-practices`.
+- **Step 5 — Simplify & Review**: Strip away superfluous abstraction via `simplify-code` and `code-review`.
+- **Step 6 — Proof of Green**: Execute the test runner and verify terminal output via `verification-before-completion`.
+- **Step 7 — Clean Merge**: Squash and merge cleanly via `finishing-a-development-branch`.
+
+### 2. 🐛 Hard Bug Diagnosis Loop (Crashes, Regressions, Flaky Tests)
+- **Step 1 — Reproduce & Minimize**: Isolate the smallest reproduction script via `diagnose-bug`.
+- **Step 2 — Graph-Powered Tracing**: Trace call stacks and dependency blast radius using `code-review-graph` and `debug-issue`.
+- **Step 3 — Surgical Fix**: Apply minimal-diff fixes via `build-error-resolver`.
+- **Step 4 — Regression Guard**: Lock the bug down forever with a targeted test case via `tdd-workflow`.
+- **Step 5 — Hard Evidence**: Verify the fix without side-effects via `verification-before-completion`.
+
+### 3. 💾 Data Contract, DB & State Loop (Fullstack Data Flow)
+- **Step 1 — Contract First**: Define runtime Zod schemas and TypeScript contracts via `api-and-interface-design`.
+- **Step 2 — Supabase Migration**: Write SQL migration scripts and enforce Row Level Security (RLS) via `supabase`.
+- **Step 3 — Index Tuning**: Optimize execution plans and indexes via `supabase-postgres-best-practices`.
+- **Step 4 — Server Caching**: Configure `staleTime`, background revalidation, and optimistic UI via `tanstack-query-best-practices`.
+- **Step 5 — Client UI Store**: Manage modal/draft states via `zustand-state-management`.
+
+### 4. 🎨 UI/UX Crafting Loop (High-Fidelity Visuals)
+- **Step 1 — 3 Directions**: Provide 3 distinct design prototypes via `huashu-design`.
+- **Step 2 — Design System**: Apply curated palettes, typography, and spacing via `apple-design` or `ui-ux-pro-max`.
+- **Step 3 — Responsive Architecture**: Fluid layouts using CSS Grid and Container Queries via `responsive-design`.
+- **Step 4 — Visual Polish**: Implement optical frosted glass (`liquid-glass-frosted`) or shaders (`motion-3d`).
+- **Step 5 — Accessibility (A11y)**: Audit color contrast ratios and keyboard navigation via `web-design-guidelines`.
+
+### 5. 🚀 E2E Quality Gate & Release Loop (Browser Automation & Ship)
+- **Step 1 — Real Browser Automation**: Test genuine user journeys via `playwright-best-practices`.
+- **Step 2 — Security Audit**: Scan for JWT mishandling, SQLi, XSS, and RLS bypasses via `security-audit`.
+- **Step 3 — CI/CD Pipeline**: Automate PR testing, linting, and build validation via `ci-cd-and-automation`.
+- **Step 4 — Runtime Telemetry**: Configure Sentry error boundaries and performance tracing via `observability-and-instrumentation`.
+- **Step 5 — Edge Deployment**: Push production builds directly via `deploy-to-vercel`.
 
 ---
 
-### 🐛 Micro-Workflow 2: Vòng Lặp Bắt Bệnh & Sửa Lỗi Khó (Hard Bug Diagnosis Loop)
-Áp dụng khi người dùng báo: *"Web bị crash"*, *"API trả về 500"*, *"Bộ nhớ tăng bất thường"*, *"Code không chạy như mong muốn"*.
-
-```mermaid
-flowchart LR
-    B1["1. Tái hiện & Thu nhỏ\ndiagnose-bug"] --> B2["2. Truy vết đồ thị\ndebug-issue + Graph"]
-    B2 --> B3["3. Sửa lỗi biên dịch\nbuild-error-resolver"]
-    B3 --> B4["4. Thêm Test chống tái phát\ntdd-workflow"]
-    B4 --> B5["5. Xác thực triệt để\nverification"]
-```
-
-- **Bước 1 — Tái hiện & Thu nhỏ (Reproduce & Minimize)**: Tìm điều kiện tối thiểu để kích hoạt bug, không sửa mò.
-- **Bước 2 — Đặt giả thuyết & Đo đạc (Instrument & Trace)**: Dùng `code-review-graph` truy vết chuỗi hàm gọi (call stack) và dependencies.
-- **Bước 3 — Sửa lỗi tối thiểu**: Tạo diff nhỏ nhất có thể, tránh sửa lan man gây hiệu ứng phụ.
-- **Bước 4 — Regression Test**: Viết 1 test case khóa chặt con bug này lại để vĩnh viễn không bao giờ tái phát.
-- **Bước 5 — Kiểm tra bằng chứng**: Chạy test và xác nhận bug đã bị tiêu diệt hoàn toàn.
-
----
-
-### 💾 Micro-Workflow 3: Vòng Lặp Hợp Đồng Dữ Liệu & State (Contract, DB & State Loop)
-Áp dụng khi người dùng yêu cầu: *"Tạo bảng thanh toán trong DB"*, *"Lưu giỏ hàng và cache danh sách món"*.
-
-```mermaid
-flowchart TD
-    D1["1. Thiết kế Hợp đồng & Zod Schemas\napi-and-interface-design"] --> D2["2. Tạo Bảng SQL & RLS Policies\nsupabase"]
-    D2 --> D3["3. Tối ưu Chỉ mục & Hiệu năng Query\nsupabase-postgres-best-practices"]
-    D3 --> D4["4. Cấu hình Server Cache & Optimistic Update\ntanstack-query-best-practices"]
-    D4 --> D5["5. Quản lý Client UI State\nzustand-state-management"]
-```
-
-- **Bước 1 — API Contract**: Định nghĩa Zod Schema và TypeScript interface chuẩn (Type-Safe từ Server đến Client).
-- **Bước 2 — Supabase Migration & RLS**: Tạo file migration SQL với Row Level Security chống rò rỉ dữ liệu.
-- **Bước 3 — Database Indexing**: Đánh index chuẩn cho các cột lọc/sort, kiểm tra query execution plan.
-- **Bước 4 — Server Caching**: Cấu hình `staleTime`, `gcTime`, cơ chế tự làm mới dữ liệu và cập nhật lạc quan (Optimistic UI) bằng TanStack Query.
-- **Bước 5 — Client State Store**: Lưu trữ trạng thái UI thuần túy (modal, draft form, active tab) trong Zustand store nhỏ gọn.
-
----
-
-### 🎨 Micro-Workflow 4: Vòng Lặp Chế Tác Giao Diện Đỉnh Cao (UI/UX Crafting Loop)
-Áp dụng khi người dùng yêu cầu: *"Làm giao diện trang chủ thật xịn"*, *"Thêm hiệu ứng kính mờ"*, *"Dựng mockup"*.
-
-```mermaid
-flowchart LR
-    U1["1. Lên 3 Hướng Mockup\nhuashu-design"] --> U2["2. Thiết kế Tinh tế\napple-design / ui-ux"]
-    U2 --> U3["3. Responsive Đa thiết bị\nresponsive-design"]
-    U3 --> U4["4. Hiệu ứng Kính & 3D\nliquid-glass / motion-3d"]
-    U4 --> U5["5. Kiểm tra WCAG\nweb-design-guidelines"]
-```
-
-- **Bước 1 — Prototype 3 hướng**: Luôn đưa ra 3 phương án visual để người dùng lựa chọn.
-- **Bước 2 — Áp dụng Design System**: Dùng bảng màu và kiểu chữ cao cấp (Apple HIG hoặc Material 3).
-- **Bước 3 — Responsive chuẩn Container Queries**: Đảm bảo hiển thị hoàn hảo trên Mobile, Tablet, Desktop.
-- **Bước 4 — Nâng tầm Visual**: Thêm hiệu ứng kính mờ chuẩn quang học (`liquid-glass-frosted`) hoặc hoạt ảnh chuyển động 3D (`motion-3d`).
-- **Bước 5 — Rà soát tiếp cận (A11y)**: Kiểm tra độ tương phản màu, hỗ trợ phím Tab và nhãn aria.
-
----
-
-### 🚀 Micro-Workflow 5: Vòng Lặp Kiểm Thử Trình Duyệt & Phát Hành (E2E & Release Loop)
-Áp dụng khi người dùng yêu cầu: *"Test luồng mua hàng"*, *"Gắn CI/CD"*, *"Theo dõi lỗi production"*.
-
-```mermaid
-flowchart TD
-    R1["1. Viết Test Trình Duyệt Thật\nplaywright-best-practices"] --> R2["2. Rà soát Lỗ hổng An ninh\nsecurity-audit"]
-    R2 --> R3["3. Thiết lập GitHub Actions Pipeline\nci-cd-and-automation"]
-    R3 --> R4["4. Gắn Sentry / Tracing theo dõi Crash\nobservability-and-instrumentation"]
-    R4 --> R5["5. Deploy Vercel Production\ndeploy-to-vercel"]
-```
-
-- **Bước 1 — Playwright E2E**: Chạy headless browser mô phỏng chính xác thao tác click, gõ phím, auth của người dùng thật.
-- **Bước 2 — Security Audit**: Quét bảo mật JWT, cookie flags, lỗ hổng SQLi, XSS.
-- **Bước 3 — CI/CD Automation**: Tự động kích hoạt test và lint mỗi khi mở Pull Request.
-- **Bước 4 — Observability & Error Alerts**: Gắn Sentry Error Boundary để bắt trọn mọi lỗi crash khi người dùng thực tế sử dụng.
-- **Bước 5 — Production Deploy**: Đẩy bản build sạch lên Vercel Edge Network.
-
----
-
-## 📜 HỆ THỐNG QUY TẮC CỐT LÕI (THE CONSTITUTIONAL RULES ENGINE)
-
-Một công ty không thể vận hành nếu chỉ có nhân viên giỏi (Skills) và quy trình (Workflows) mà thiếu đi **Hiến pháp & Kỷ luật thép (Rules)**. 
-
-Trong `agent-workflow-skill`, thư mục `rules/` và `.agents/rules/` chứa các bộ quy tắc bất biến mà mọi AI khi tham gia vào dự án **BẮT BUỘC PHẢI TUÂN THỦ 100%**:
+## 📜 The Constitutional Rules Engine
 
 ```
                        ┌──────────────────────────────────────────────┐
-                       │   📜 HIẾN PHÁP BẤT BIẾN CỦA AGENT WORKFLOW   │
+                       │    CONSTITUTIONAL RULES ENGINE (IMMUTABLE)   │
                        └──────────────────────┬───────────────────────┘
                                               │
              ┌────────────────────────────────┼────────────────────────────────┐
              │                                │                                │
      ┌───────▼────────┐              ┌────────▼────────┐              ┌────────▼────────┐
-     │ 🧠 Tư Duy Kỷ   │              │ 🛡️ Chống Gian   │              │ 🔒 An Ninh &    │
-     │ Luật 7 Giai    │              │ Lận TypeScript  │              │ Quản Lý Bí Mật  │
-     │ Đoạn (Stage 0) │              │ (Strict Typing) │              │ (Secrets & A11y)│
+     │ 🧠 Disciplined │              │ 🛡️ Strict Anti- │              │ 🔒 Security &   │
+     │ 7-Stage Logic  │              │ Cheat TypeScript│              │ Secret Isolation│
      └───────┬────────┘              └────────┬────────┘              └────────┬────────┘
              │                                │                                │
        disciplined-                      typescript.md                    typescript/
-       reasoning.md                      - Cấm any                        - security.md
-       - Stage 0 Clarify                 - Cấm @ts-ignore                 - patterns.md
-       - Karpathy Guidelines             - Cấm as any                     - testing.md
-       - Phẫu thuật mã                   - Discriminated Union            - hooks.md
+       reasoning.md                      - Zero any                       - security.md
+       - Stage 0 Clarify                 - No @ts-ignore                  - patterns.md
+       - Karpathy Code                   - No as any                      - testing.md
+       - Surgical Diff                   - Discriminated Union            - hooks.md
 ```
 
-### 1. 🧠 Quy Tắc Tư Duy Có Cấu Trúc (7-Stage Disciplined Reasoning)
-*File nguồn:* `rules/disciplined-reasoning.md`
-- **Giai đoạn 0 — Clarify (Bắt buộc)**: Khi yêu cầu có bất kỳ điểm mờ nào, AI **PHẢI DỪNG LẠI** và hỏi để làm rõ. Tuyệt đối không đoán mò ý người dùng.
-- **Giai đoạn 1 — Reasoning**: Trình bày tư duy chuỗi (Chain-of-Thought) rành mạch trước khi đưa ra kết luận.
-- **Giai đoạn 2 & 3 — Cân nhắc đa phương án**: Luôn so sánh ít nhất 2-3 giải pháp (ưu, nhược, rủi ro) trước khi chọn phương án tốt nhất.
-- **Giai đoạn 4 — Phẫu thuật mã nguồn (Surgical Changes)**: Chỉ sửa đúng phần cần sửa, tuyệt đối không "refactor ké" những đoạn code đang chạy ổn định.
-- **Giai đoạn 5 — Tự kiểm tra giả định (Self-Testing)**: Tự chạy kịch bản dry-run kiểm tra trường hợp bình thường, trường hợp biên và trường hợp lỗi.
-
-### 2. ⚡ Kỷ Luật Lập Trình Andrej Karpathy (Karpathy Guidelines)
-*File nguồn:* `rules/disciplined-reasoning.md (Phần II)`
-- **Think Before Coding**: Nghĩ thông suốt trước khi gõ phím. Nếu thấy yêu cầu over-engineering, AI có trách nhiệm phản biện (push back).
-- **Simplicity First**: Giải pháp 50 dòng giải quyết triệt để vấn đề luôn thắng giải pháp 200 dòng vẽ vời abstraction.
-- **Zero Hallucination**: Gặp điểm chưa chắc chắn phải nói thẳng *"Tôi không chắc"*, tuyệt đối không bịa đặt API.
-
-### 3. 🛡️ Quy Tắc TypeScript Strict & Anti-Cheat (Chống Gian Lận Ép Kiểu)
-*File nguồn:* `rules/typescript.md`
-- 🚫 **TUYỆT ĐỐI CẤM `any`**: Sử dụng `unknown` và kỹ thuật Type Narrowing khi nhận dữ liệu từ bên ngoài.
-- 🚫 **CẤM ÉP KIỂU MÙ QUÁNG**: Nghiêm cấm `as unknown as T` hoặc `as any` để đánh lừa compiler.
-- 🚫 **CẤM TẮT TYPE CHECK**: Nghiêm cấm sử dụng comment `// @ts-ignore` hoặc `// @ts-nocheck` để trốn lỗi biên dịch.
-- ✅ **Khai báo Return Type**: Mọi hàm public/export bắt buộc phải có kiểu trả về rõ ràng.
-- ✅ **Discriminated Unions**: Quản lý trạng thái async bằng type union (`idle | loading | success | error`) thay vì cắm cờ boolean lộn xộn.
-
-### 4. 🔒 An Ninh & Cấu Trúc Mã Nguồn (Security & Domain Patterns)
-*File nguồn:* `rules/typescript/`
-- **`security.md`**: Tuyệt đối không hardcode API keys, tokens hay passwords vào mã nguồn; 100% qua biến môi trường (`process.env`).
-- **`coding-style.md`**: Trích xuất object shapes lặp lại thành interfaces/types chuẩn, hàm thuần khiết (pure functions).
-- **`patterns.md`**: Định dạng chuẩn hóa phản hồi `ApiResponse<T>` đồng bộ giữa Client và Server.
-- **`testing.md`**: Chuẩn hóa kiểm thử E2E Playwright và Vitest unit test.
+1. **`disciplined-reasoning.md` (Full Protocol)**:
+   - **7-Stage Operating Principles**: Mandatory progression from Stage 0 (Clarify) to Stage 6 (Conclusion). Never guess user requirements.
+   - **Karpathy Coding Discipline**:
+     - *Think Before Coding*: Stop immediately on ambiguous requirements; challenge irrational specs.
+     - *Simplicity First*: Never build speculative abstractions. 50 lines of clear code beat 200 lines of bloated helpers.
+     - *Surgical Changes*: Modify only what is strictly necessary. Never touch or refactor working adjacent code.
+     - *Goal-Driven*: Convert every task into concrete, verifiable test cases.
+2. **`typescript.md` (Strict Typing & Anti-Cheat Rules)**:
+   - 🚫 **Strictly Forbidden**: No `any`. External payloads must use `unknown` with runtime Type Narrowing.
+   - 🚫 **No Type Assertions Cheating**: Strictly banned: `as unknown as T` or `as any`.
+   - 🚫 **No Compiler Suppression**: Absolute zero tolerance for `// @ts-ignore` or `// @ts-nocheck`.
+   - ✅ **Explicit Return Types**: All exported functions and public methods must declare explicit return types.
+   - ✅ **Discriminated Unions**: Async state must use typed unions (`idle | loading | success | error`) rather than multiple boolean flags.
+3. **`typescript/` Domain Rules**:
+   - `security.md`: Zero hardcoded secrets; mandatory environment variable extraction (`process.env`).
+   - `coding-style.md`: Extraction of repeated object shapes into named interfaces; immutable patterns.
+   - `patterns.md`: Standardized `ApiResponse<T>` contract for client-server parity.
+   - `testing.md`: Playwright E2E and Vitest unit testing standards.
 
 ---
 
-## 📋 DANH MỤC 59 KỸ NĂNG (THE 59-SKILL CATALOG)
+## 📋 The 59-Skill Catalog
 
-### 1. Khám Phá & Sản Phẩm (4 Skills)
-- `brainstorming`: Khám phá ý tưởng thành đặc tả chi tiết.
-- `requirements-interview`: Phỏng vấn bóc tách yêu cầu nghiệp vụ chuyên sâu.
-- `idea-expansion`: Mở rộng góc nhìn và phân tích đa phương án.
-- `grill-me`: Thách thức và phản biện gay gắt kế hoạch thiết kế.
+### 1. Product Management & Business Analysis (4 Skills)
+- `brainstorming`: Structured exploratory ideation to turn raw concepts into specs.
+- `requirements-interview`: Relentless BA-style probing to extract requirements and edge cases.
+- `idea-expansion`: Structured divergent and convergent ideation.
+- `grill-me`: Adversarial stress-testing of design plans to expose flawed assumptions.
 
-### 2. Thiết Kế Giao Diện & Trải Nghiệm (11 Skills)
-- `ui-ux-pro-max`: Bách khoa toàn thư UI/UX (50+ styles, 161 bảng màu, 57 font pairings).
-- `frontend-design`: Thiết kế giao diện đặc sắc, cao cấp, phi khuôn mẫu.
-- `apple-design`: Ngôn ngữ thiết kế tối giản, thanh lịch chuẩn Apple HIG.
-- `liquid-glass-frosted`: Hiệu ứng kính mờ (Frosted glass) với độ khúc xạ chuẩn xác.
-- `motion-3d`: Hoạt ảnh 3D cao cấp (Three.js, WebGL, Shader, GSAP).
-- `canvas-design`: Tạo tác phẩm nghệ thuật, banner, đồ họa vector bằng mã nguồn.
-- `huashu-design`: Thiết kế 3 hướng prototype độ trung thực cao để lựa chọn.
-- `web-design` & `web-design-guidelines`: Kiểm tra khả năng tiếp cận và chuẩn web WCAG.
-- `responsive-design`: Bố cục đáp ứng đa màn hình với Container Queries.
-- `mobile-ios-design`: Thiết kế giao diện iOS chuẩn SwiftUI/HIG.
-- `mobile-android-design`: Thiết kế giao diện Android chuẩn Material Design 3.
+### 2. UI/UX Design & Design Systems (11 Skills)
+- `ui-ux-pro-max`: Encyclopedia of design (50+ styles, 161 palettes, 57 font pairings).
+- `frontend-design`: Distinctive, production-grade visual engineering without generic templates.
+- `apple-design`: Modern minimalist UI following Apple Human Interface Guidelines (HIG).
+- `liquid-glass-frosted`: Optical frosted glass blur and refraction effects.
+- `motion-3d`: High-end 3D graphics and shaders (Three.js, WebGL, GSAP).
+- `canvas-design`: Code-generated graphics, posters, banners, and vector assets.
+- `huashu-design`: 3 high-fidelity prototype directions for rapid user selection.
+- `web-design` & `web-design-guidelines`: Web Accessibility Initiative (WCAG) compliance.
+- `responsive-design`: Multi-device responsive layouts powered by CSS Container Queries.
+- `mobile-ios-design`: Native iOS interfaces following SwiftUI and Apple HIG.
+- `mobile-android-design`: Native Android interfaces following Material Design 3.
 
-### 3. Kiến Trúc Hệ Thống & Hợp Đồng Dữ Liệu (5 Skills)
-- `api-and-interface-design`: Thiết kế chuẩn REST/RPC, Zod schemas và type contracts (Addy Osmani - Google).
-- `design-and-document`: Lưu trữ kiến trúc hệ thống (ADR) và mô hình miền (CONTEXT.md).
-- `improve-architecture`: Phát hiện module ghép nối chặt và tái cấu trúc hệ thống.
-- `supabase`: Quản trị toàn diện Supabase (Database, Auth, Storage, Edge Functions, RLS).
-- `supabase-postgres-best-practices`: Tối ưu hóa truy vấn Postgres, index và cấu hình bảo mật.
+### 3. System Architecture & Data Contracts (5 Skills)
+- `api-and-interface-design`: Type-safe REST/RPC contracts and runtime Zod schemas (Addy Osmani - Google).
+- `design-and-document`: Living architecture documentation (ADRs) and domain models (`CONTEXT.md`).
+- `improve-architecture`: Decoupling and module boundary optimization.
+- `supabase`: Full-lifecycle Supabase management (Database, Auth, Storage, Edge Functions, RLS).
+- `supabase-postgres-best-practices`: Postgres query optimization, indexing, and connection pooling.
 
-### 4. Quản Lý State, Caching & Lập Kế Hoạch (10 Skills)
-- `tanstack-query-best-practices`: Chiến lược server cache, revalidation và optimistic updates.
-- `zustand-state-management`: Kiến trúc client state store nhẹ, tách slices và middleware persist.
-- `react-state-management`: Quản lý kiến trúc state React tổng thể (Context vs Store).
-- `internationalization-i18n`: Cấu trúc đa ngôn ngữ i18n, quản lý file dịch thuật và locale format.
-- `plan-tasks`: Phân rã epic thành chuỗi nhiệm vụ logic, tuần tự.
-- `using-git-worktrees`: Tạo không gian làm việc cô lập an toàn bằng Git Worktrees.
-- `dispatching-parallel-agents`: Điều phối nhiều sub-agents chạy song song độc lập.
-- `karpathy-guidelines`: Quy tắc tối giản của Andrej Karpathy, chặn đứng over-engineering.
-- `explore-codebase`: Khám phá mã nguồn bằng Knowledge Graph.
-- `find-skills`: Tìm kiếm và bổ sung kỹ năng mới từ hệ sinh thái open agent skills.
+### 4. State Management, Caching & Task Planning (10 Skills)
+- `tanstack-query-best-practices`: Server cache invalidation, revalidation, and optimistic updates.
+- `zustand-state-management`: Lightweight client store slices with persist middleware.
+- `react-state-management`: Architectural global state management (Context vs Store vs Hooks).
+- `internationalization-i18n`: Scalable multi-language i18n architectures and locale formatting.
+- `plan-tasks`: Ordered work breakdown structure (WBS) for complex tasks.
+- `using-git-worktrees`: Isolated workspaces via Git worktrees.
+- `dispatching-parallel-agents`: Multi-agent sub-process fan-out.
+- `karpathy-guidelines`: Anti-overengineering rules and surgical edit discipline.
+- `explore-codebase`: Structural exploration powered by Knowledge Graph tools.
+- `find-skills`: Discovery and installation of open ecosystem agent skills.
 
-### 5. Lập Trình & Sửa Lỗi Chuyên Sâu (11 Skills)
-- `incremental-delivery`: Triển khai mã nguồn theo từng lát cắt nhỏ, kiểm thử chắc chắn.
-- `subagent-driven-development`: Thực thi kế hoạch lập trình thông qua sub-agents chuyên biệt.
-- `tdd-workflow`: Quy trình phát triển hướng kiểm thử Red-Green-Refactor (độ phủ 80%+).
-- `vercel-react-best-practices`: Tối ưu hóa hiệu năng render, bundle size từ Vercel Engineering.
-- `vercel-react-view-transitions`: Hiệu ứng chuyển trang mượt mà với View Transition API.
-- `react-native-design`: Lập trình thành phần React Native và Reanimated animations.
-- `vercel-react-native-skills`: Tối ưu danh sách mượt mà (FlashList) và bộ nhớ mobile.
-- `diagnose-bug`: Quy trình bắt bệnh phần mềm 6 bước nghiêm ngặt.
-- `debug-issue`: Truy vết lỗi bằng biểu đồ tri thức mã nguồn.
-- `build-error-resolver`: Khắc phục lỗi TypeScript / Vite build thần tốc với diff tối thiểu.
-- `refactor-safely`: Kế hoạch tái cấu trúc an toàn dựa trên đồ thị phụ thuộc.
+### 5. Fullstack Implementation & Error Recovery (11 Skills)
+- `incremental-delivery`: Verified, step-by-step implementation slices.
+- `subagent-driven-development`: Parallel subagent task orchestration.
+- `tdd-workflow`: Red-Green-Refactor test-driven development (80%+ coverage).
+- `vercel-react-best-practices`: Render performance and bundle optimization from Vercel Engineering.
+- `vercel-react-view-transitions`: Seamless page animations via the View Transition API.
+- `react-native-design`: React Native and Reanimated component engineering.
+- `vercel-react-native-skills`: Mobile list optimization (FlashList) and memory tuning.
+- `diagnose-bug`: 6-step scientific bug isolation loop.
+- `debug-issue`: Dependency graph tracing for tricky regressions.
+- `build-error-resolver`: Fast TypeScript and Vite build error resolution with minimal diffs.
+- `refactor-safely`: Dependency-aware safe code refactoring.
 
-### 6. Rà Soát Chất Lượng & Kiểm Thử QA (8 Skills)
-- `playwright-best-practices`: Kiểm thử tự động E2E trên trình duyệt thật (Currents-dev).
-- `code-review`: Rà soát mã nguồn đa chiều trước khi merge.
-- `review-changes`: Đánh giá bán kính ảnh hưởng của pull request.
-- `simplify-code`: Đơn giản hóa mã nguồn, loại bỏ trừu tượng thừa.
-- `security-audit`: Rà soát lỗ hổng an ninh (OWASP, SQLi, XSS, RLS leak).
-- `tester`: Bảng kiểm soát chất lượng và kế hoạch rollback trước khi phát hành.
-- `verification-before-completion`: Bắt buộc cung cấp bằng chứng thực tế trước khi kết thúc task.
-- `document-decisions`: Ghi nhận quyết định kỹ thuật vào tài liệu dự án.
+### 6. Quality Assurance & Security Hardening (8 Skills)
+- `playwright-best-practices`: Production-grade browser automation tests (Currents-dev).
+- `code-review`: Multi-axis code reviews before merging.
+- `review-changes`: Blast-radius analysis and PR diff evaluation.
+- `simplify-code`: Complexity elimination and dead-code stripping.
+- `security-audit`: Vulnerability scanning (OWASP, SQLi, XSS, RLS leak detection).
+- `tester`: Pre-launch readiness checklists and rollback planning.
+- `verification-before-completion`: Mandatory empirical evidence requirement before task closure.
+- `document-decisions`: Continuous recording of technical decisions.
 
-### 7. DevOps, CI/CD, Giám Sát & Vận Hành (8 Skills)
-- `ci-cd-and-automation`: Thiết lập GitHub Actions, kiểm thử tự động trên PR, semantic release (Addy Osmani).
-- `observability-and-instrumentation`: Gắn Sentry, OpenTelemetry, thu thập log và cảnh báo runtime lỗi (Addy Osmani).
-- `deploy-to-vercel`: Triển khai ứng dụng lên nền tảng Vercel trong tích tắc.
-- `vercel-cli-with-tokens`: Tự động hóa thao tác Vercel bằng Token CI/CD.
-- `audit-website`: Quét toàn diện website với hơn 260 quy tắc (Squirrelscan).
-- `seo-audit`: Tối ưu hóa SEO kỹ thuật, thẻ Meta, Open Graph và Schema JSON-LD.
-- `finishing-a-development-branch`: Đóng gói nhánh phát triển, squash commit và tạo PR chuẩn mực.
-- `using-superpowers`: Khởi tạo công cụ và điều phối meta khi bắt đầu phiên làm việc.
+### 7. DevOps, CI/CD, Observability & Release (8 Skills)
+- `ci-cd-and-automation`: GitHub Actions workflows, automated PR testing, and semantic releases (Addy Osmani).
+- `observability-and-instrumentation`: Sentry runtime error boundaries, OpenTelemetry, logs, and alerts (Addy Osmani).
+- `deploy-to-vercel`: Instant production and preview deployments on Vercel.
+- `vercel-cli-with-tokens`: Token-based Vercel CI/CD pipeline automation.
+- `audit-website`: Comprehensive 260+ rule website audits via Squirrelscan.
+- `seo-audit`: Technical SEO, Open Graph tags, and JSON-LD structured data.
+- `finishing-a-development-branch`: Git branch squash, clean commit history, and PR preparation.
+- `using-superpowers`: Agent environment initialization and meta orchestration.
 
 ### 8. Meta Communication (2 Skills)
-- `using-superpowers`: Khởi tạo cấu hình và kích hoạt các giác quan AI.
-- `caveman-mode`: Chế độ giao tiếp siêu ngắn gọn, tiết kiệm 75% tokens khi cần.
+- `using-superpowers`: Tool initialization and sensory checks.
+- `caveman-mode`: Ultra-compressed communication mode (cuts token usage ~75%).
 
 ---
 
-## ⚡ HƯỚNG DẪN CÀI ĐẶT & SỬ DỤNG (QUICK START)
+## 🚀 Quick Start Guide
 
-### Cài đặt vào Dự Án của bạn
+### 1. Installation
 
-Chỉ cần sao chép toàn bộ thư mục này hoặc clone vào dự án của bạn:
+Clone or copy into your project workspace:
 
 ```bash
-# Clone bộ kỹ năng vào thư mục gốc của dự án
+# Clone the repository
 git clone https://github.com/Snowbal-Dev/agent-workflow.git ./agent-workflow
 
-# Hoặc copy thư mục skills và các file rules vào dự án của bạn
+# Copy skills and orchestrator files into your target repository
 cp -r ./agent-workflow/skills ./.agents/skills
+cp -r ./agent-workflow/rules ./.agents/rules
 cp ./agent-workflow/AGENTS.md ./AGENTS.md
 ```
 
-### Tương Thích Với Mọi Nền Tảng AI
+### 2. Multi-Agent Compatibility
 
-- **Antigravity / Gemini**: Đã cấu hình sẵn `GEMINI.md` và tải tự động qua `.agents/skills`.
-- **Claude Code**: Tự động nhận diện `CLAUDE.md` và nạp toàn bộ 59 skills từ `skills/`.
-- **Cursor IDE / Windsurf**: Tự động nhận diện `.cursorrules` và `.windsurfrules`.
-- **OpenAI Codex / GPT-4o / Grok**: Đọc chỉ dẫn tối cao tại `AGENTS.md`.
-
----
-
-## 🔌 CÀI ĐẶT 2 MCP SERVERS BẮT BUỘC (CRITICAL ENGINES)
-
-Để "Tổng Công Ty AI" phát huy 100% sức mạnh, hãy cài đặt 2 máy chủ MCP sau:
-
-1. **`code-review-graph` (Knowledge Graph Engine)**
-   - *Tác dụng*: Vẽ biểu đồ tri thức toàn bộ codebase, giúp AI đọc code nhanh gấp 10 lần và tiết kiệm 80% token.
-   - *Hướng dẫn chi tiết*: [mcp/code-review-graph-setup.md](mcp/code-review-graph-setup.md)
-2. **`supabase` (Database MCP Engine)**
-   - *Tác dụng*: Cho phép AI truy vấn schema, kiểm tra RLS, chạy migration trực tiếp vào database.
-   - *Hướng dẫn chi tiết*: [mcp/supabase-setup.md](mcp/supabase-setup.md)
+- **Claude Code**: Reads `CLAUDE.md` and discovers skills from `skills/`.
+- **Antigravity / Gemini**: Discovers skills automatically from `.agents/skills` and rules from `.agents/rules/`.
+- **Cursor IDE & Windsurf**: Supported natively via `.cursorrules` and `.windsurfrules`.
+- **OpenAI Codex, GPT-4o, Grok**: Orchestrated through `AGENTS.md`.
 
 ---
 
-## 📄 LICENSE
+## 🔌 Critical MCP Engines
 
-Phát hành dưới giấy phép mã nguồn mở [MIT License](LICENSE).
-Tự do sử dụng, chỉnh sửa và đóng gói cho các dự án thương mại hoặc cá nhân.
+For optimal velocity and structural intelligence, configure these two MCP servers:
+
+1. **`code-review-graph` (Knowledge Graph Engine)**:
+   - Indexes AST, callers, callees, and dependencies.
+   - Provides 5-10x faster navigation and saves up to 80% token overhead.
+   - *Setup Guide*: [mcp/code-review-graph-setup.md](mcp/code-review-graph-setup.md)
+2. **`supabase` (Database Engine)**:
+   - Grants direct access to schemas, migrations, RLS policies, and database logs.
+   - *Setup Guide*: [mcp/supabase-setup.md](mcp/supabase-setup.md)
+
+---
+
+## 📄 License
+
+This repository is distributed under the open-source [MIT License](LICENSE). Feel free to use, modify, and distribute it across commercial and open-source applications.
