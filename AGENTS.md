@@ -59,8 +59,27 @@ Discover  -->  Design   -->   Plan    -->  Execute   -->  Review   -->  Ship &
                                     6. Git commit
 ```
 
-**Small task** = Only Micro-Workflow (2-4 skills)
+**Small task** = Run one of the 5 Micro-Workflows below
 **Large feature** = All 6 Macro phases, each spawning Micro-Workflows
+
+### 🔬 THE 5 OPERATIONAL MICRO-WORKFLOWS (Per Task Execution)
+
+Every individual task or sub-problem MUST follow its dedicated Micro-Loop:
+
+1. **Feature Task Loop** (Small feature / task addition):
+   `requirements-interview` (Quick clarify edge cases) ➔ `using-git-worktrees` (Isolate branch) ➔ `tdd-workflow` (Red test) ➔ `incremental-delivery` + `vercel-react-best-practices` (Green code) ➔ `simplify-code` (Remove bloat) ➔ `code-review` (Multi-axis check) ➔ `verification-before-completion` (Evidence green) ➔ `finishing-a-development-branch` (Merge).
+
+2. **Hard Bug Diagnosis Loop** (Bugs, errors, regressions):
+   `diagnose-bug` (Reproduce ➔ Minimize ➔ Hypothesize) ➔ `debug-issue` (Trace call tree via Graph) ➔ `build-error-resolver` (Minimal-diff compile fix) ➔ `tdd-workflow` (Regression test) ➔ `verification-before-completion`.
+
+3. **Data Contract & State Loop** (Database, API schemas, caching):
+   `api-and-interface-design` (Zod schemas & contracts) ➔ `supabase` (SQL migration + RLS) ➔ `supabase-postgres-best-practices` (Index & query tuning) ➔ `tanstack-query-best-practices` (Server cache & optimistic UI) ➔ `zustand-state-management` (Client UI store).
+
+4. **UI/UX Crafting Loop** (Components & visuals):
+   `huashu-design` (3 high-fidelity directions) ➔ User picks ➔ `apple-design` / `ui-ux-pro-max` (Design system) ➔ `responsive-design` (Container queries) ➔ `liquid-glass-frosted` / `motion-3d` (Visual polish) ➔ `web-design-guidelines` (WCAG compliance).
+
+5. **E2E & Release Loop** (Quality gate & shipping):
+   `playwright-best-practices` (E2E headless browser test) ➔ `security-audit` (Vulnerability & RLS scan) ➔ `ci-cd-and-automation` (GitHub Actions workflow) ➔ `observability-and-instrumentation` (Sentry & telemetry) ➔ `deploy-to-vercel`.
 
 ---
 

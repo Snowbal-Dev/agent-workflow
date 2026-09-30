@@ -93,6 +93,115 @@ flowchart LR
 
 ---
 
+---
+
+## 🔬 HỆ THỐNG WORKFLOW VI MÔ CHI TIẾT (THE MICRO-WORKFLOW ENGINE)
+
+Trong khi **Macro-Workflow (6 Pha)** đóng vai trò là chiếc la bàn chiến lược cho toàn bộ dự án từ A-Z, thì **Micro-Workflow** chính là cỗ máy tác chiến hàng ngày. 
+
+> **90% thời gian bạn làm việc với AI sẽ là các câu lệnh nhỏ:** sửa một con bug, dựng một component, tạo một bảng database, hay viết test. Nếu không có quy trình vi mô, AI sẽ nhảy bổ vào code ẩu và làm hỏng dự án. Dưới đây là **5 Micro-Workflows chuẩn Enterprise** được cài đặt sẵn vào bộ não của AI:
+
+---
+
+### 🔄 Micro-Workflow 1: Vòng Lặp Phát Triển Tính Năng / Task Nhỏ (Feature Task Loop)
+Áp dụng khi người dùng yêu cầu: *"Thêm nút like bài viết"*, *"Tạo form đổi mật khẩu"*, *"Thêm bộ lọc tìm kiếm"*.
+
+```mermaid
+flowchart TD
+    M1["1. Làm rõ nhanh (Stage 0)\nrequirements-interview"] --> M2["2. Cách ly nhánh an toàn\nusing-git-worktrees"]
+    M2 --> M3["3. Viết Test trước (Red)\ntdd-workflow"]
+    M3 --> M4["4. Viết Code tối thiểu (Green)\nincremental-delivery + vercel-react"]
+    M4 --> M5["5. Đơn giản hóa & Rà soát\nsimplify-code + code-review"]
+    M5 --> M6["6. Bằng chứng Test xanh\nverification-before-completion"]
+    M6 --> M7["7. Đóng nhánh & Merge PR\nfinishing-a-development-branch"]
+```
+
+- **Bước 1 — Làm rõ nhanh**: AI đặt câu hỏi làm rõ các trường hợp biên (edge cases) trước khi gõ code.
+- **Bước 2 — Cách ly không gian làm việc**: Tạo nhánh hoặc git worktree độc lập để không làm bẩn code đang chạy.
+- **Bước 3 — Viết Test thất bại trước (TDD Red)**: Viết test case kỳ vọng kết quả, xác nhận test fail.
+- **Bước 4 — Triển khai mã nguồn (TDD Green)**: Viết code tối giản nhất để test pass, tuân thủ render tối ưu của Vercel.
+- **Bước 5 — Tinh giản & Review**: Loại bỏ abstraction thừa thãi, rà soát code theo đa tiêu chí.
+- **Bước 6 — Xác thực bằng chứng**: Bắt buộc chạy lệnh test thực tế và hiển thị output xanh.
+- **Bước 7 — Merge**: Đóng gói commit gọn gàng và hoàn tất nhánh.
+
+---
+
+### 🐛 Micro-Workflow 2: Vòng Lặp Bắt Bệnh & Sửa Lỗi Khó (Hard Bug Diagnosis Loop)
+Áp dụng khi người dùng báo: *"Web bị crash"*, *"API trả về 500"*, *"Bộ nhớ tăng bất thường"*, *"Code không chạy như mong muốn"*.
+
+```mermaid
+flowchart LR
+    B1["1. Tái hiện & Thu nhỏ\ndiagnose-bug"] --> B2["2. Truy vết đồ thị\ndebug-issue + Graph"]
+    B2 --> B3["3. Sửa lỗi biên dịch\nbuild-error-resolver"]
+    B3 --> B4["4. Thêm Test chống tái phát\ntdd-workflow"]
+    B4 --> B5["5. Xác thực triệt để\nverification"]
+```
+
+- **Bước 1 — Tái hiện & Thu nhỏ (Reproduce & Minimize)**: Tìm điều kiện tối thiểu để kích hoạt bug, không sửa mò.
+- **Bước 2 — Đặt giả thuyết & Đo đạc (Instrument & Trace)**: Dùng `code-review-graph` truy vết chuỗi hàm gọi (call stack) và dependencies.
+- **Bước 3 — Sửa lỗi tối thiểu**: Tạo diff nhỏ nhất có thể, tránh sửa lan man gây hiệu ứng phụ.
+- **Bước 4 — Regression Test**: Viết 1 test case khóa chặt con bug này lại để vĩnh viễn không bao giờ tái phát.
+- **Bước 5 — Kiểm tra bằng chứng**: Chạy test và xác nhận bug đã bị tiêu diệt hoàn toàn.
+
+---
+
+### 💾 Micro-Workflow 3: Vòng Lặp Hợp Đồng Dữ Liệu & State (Contract, DB & State Loop)
+Áp dụng khi người dùng yêu cầu: *"Tạo bảng thanh toán trong DB"*, *"Lưu giỏ hàng và cache danh sách món"*.
+
+```mermaid
+flowchart TD
+    D1["1. Thiết kế Hợp đồng & Zod Schemas\napi-and-interface-design"] --> D2["2. Tạo Bảng SQL & RLS Policies\nsupabase"]
+    D2 --> D3["3. Tối ưu Chỉ mục & Hiệu năng Query\nsupabase-postgres-best-practices"]
+    D3 --> D4["4. Cấu hình Server Cache & Optimistic Update\ntanstack-query-best-practices"]
+    D4 --> D5["5. Quản lý Client UI State\nzustand-state-management"]
+```
+
+- **Bước 1 — API Contract**: Định nghĩa Zod Schema và TypeScript interface chuẩn (Type-Safe từ Server đến Client).
+- **Bước 2 — Supabase Migration & RLS**: Tạo file migration SQL với Row Level Security chống rò rỉ dữ liệu.
+- **Bước 3 — Database Indexing**: Đánh index chuẩn cho các cột lọc/sort, kiểm tra query execution plan.
+- **Bước 4 — Server Caching**: Cấu hình `staleTime`, `gcTime`, cơ chế tự làm mới dữ liệu và cập nhật lạc quan (Optimistic UI) bằng TanStack Query.
+- **Bước 5 — Client State Store**: Lưu trữ trạng thái UI thuần túy (modal, draft form, active tab) trong Zustand store nhỏ gọn.
+
+---
+
+### 🎨 Micro-Workflow 4: Vòng Lặp Chế Tác Giao Diện Đỉnh Cao (UI/UX Crafting Loop)
+Áp dụng khi người dùng yêu cầu: *"Làm giao diện trang chủ thật xịn"*, *"Thêm hiệu ứng kính mờ"*, *"Dựng mockup"*.
+
+```mermaid
+flowchart LR
+    U1["1. Lên 3 Hướng Mockup\nhuashu-design"] --> U2["2. Thiết kế Tinh tế\napple-design / ui-ux"]
+    U2 --> U3["3. Responsive Đa thiết bị\nresponsive-design"]
+    U3 --> U4["4. Hiệu ứng Kính & 3D\nliquid-glass / motion-3d"]
+    U4 --> U5["5. Kiểm tra WCAG\nweb-design-guidelines"]
+```
+
+- **Bước 1 — Prototype 3 hướng**: Luôn đưa ra 3 phương án visual để người dùng lựa chọn.
+- **Bước 2 — Áp dụng Design System**: Dùng bảng màu và kiểu chữ cao cấp (Apple HIG hoặc Material 3).
+- **Bước 3 — Responsive chuẩn Container Queries**: Đảm bảo hiển thị hoàn hảo trên Mobile, Tablet, Desktop.
+- **Bước 4 — Nâng tầm Visual**: Thêm hiệu ứng kính mờ chuẩn quang học (`liquid-glass-frosted`) hoặc hoạt ảnh chuyển động 3D (`motion-3d`).
+- **Bước 5 — Rà soát tiếp cận (A11y)**: Kiểm tra độ tương phản màu, hỗ trợ phím Tab và nhãn aria.
+
+---
+
+### 🚀 Micro-Workflow 5: Vòng Lặp Kiểm Thử Trình Duyệt & Phát Hành (E2E & Release Loop)
+Áp dụng khi người dùng yêu cầu: *"Test luồng mua hàng"*, *"Gắn CI/CD"*, *"Theo dõi lỗi production"*.
+
+```mermaid
+flowchart TD
+    R1["1. Viết Test Trình Duyệt Thật\nplaywright-best-practices"] --> R2["2. Rà soát Lỗ hổng An ninh\nsecurity-audit"]
+    R2 --> R3["3. Thiết lập GitHub Actions Pipeline\nci-cd-and-automation"]
+    R3 --> R4["4. Gắn Sentry / Tracing theo dõi Crash\nobservability-and-instrumentation"]
+    R4 --> R5["5. Deploy Vercel Production\ndeploy-to-vercel"]
+```
+
+- **Bước 1 — Playwright E2E**: Chạy headless browser mô phỏng chính xác thao tác click, gõ phím, auth của người dùng thật.
+- **Bước 2 — Security Audit**: Quét bảo mật JWT, cookie flags, lỗ hổng SQLi, XSS.
+- **Bước 3 — CI/CD Automation**: Tự động kích hoạt test và lint mỗi khi mở Pull Request.
+- **Bước 4 — Observability & Error Alerts**: Gắn Sentry Error Boundary để bắt trọn mọi lỗi crash khi người dùng thực tế sử dụng.
+- **Bước 5 — Production Deploy**: Đẩy bản build sạch lên Vercel Edge Network.
+
+---
+
 ## 📋 DANH MỤC 59 KỸ NĂNG (THE 59-SKILL CATALOG)
 
 ### 1. Khám Phá & Sản Phẩm (4 Skills)
