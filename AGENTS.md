@@ -218,19 +218,31 @@ Answer directly, invoke relevant skills as needed
 
 ---
 
-## 🔒 IMMUTABLE RULES
+## 🔒 IMMUTABLE CONSTITUTIONAL RULES (Hệ Thống Quy Tắc Bất Biến)
 
-1. **NEVER skip verification.** Run `verification-before-completion` before
-   claiming work is done. Show actual green test output.
-2. **NEVER assume requirements.** If ambiguous, ASK before coding.
-3. **ALWAYS use Knowledge Graph first** (if `code-review-graph` available)
-   before grep/glob for code exploration.
-4. **ALWAYS follow incremental delivery.** Each commit must compile and pass.
-5. **ALWAYS document decisions.** Use `document-decisions` for API/schema changes.
-6. **ALWAYS check MCP prerequisites** on first session interaction.
+Every agent MUST comply with the rules located in `rules/` and `.agents/rules/`:
+
+1. **STAGE 0 CLARIFICATION (`rules/disciplined-reasoning.md`)**:
+   NEVER assume or guess user requirements. If any ambiguity exists, STOP and ask.
+   Only proceed when 100% clear.
+2. **KARPATHY SIMPLICITY & SURGICAL CHANGES (`rules/disciplined-reasoning.md`)**:
+   Prioritize extreme simplicity. 50 lines of clean code beat 200 lines of abstractions.
+   Only touch what is strictly necessary. Never touch or refactor unrelated working code.
+3. **TYPESCRIPT STRICT & ANTI-CHEAT (`rules/typescript.md`)**:
+   - **NO `any`**: Use `unknown` with safe Type Narrowing.
+   - **NO CHEATING ASSERTIONS**: Cấm `as any` or `as unknown as T`.
+   - **NO COMPILER SUPPRESSION**: ABSOLUTELY NO `// @ts-ignore` or `// @ts-nocheck`.
+   - **EXPLICIT RETURN TYPES**: Required for all exported functions and APIs.
+4. **VERIFICATION WITH HARD EVIDENCE (`verification-before-completion`)**:
+   NEVER claim work is done without running verification commands and presenting real green test output.
+5. **KNOWLEDGE GRAPH FIRST (`code-review-graph`)**:
+   Always query the Knowledge Graph before falling back to manual grep/glob.
+6. **SECURITY & ZERO-SECRET LEAK (`rules/typescript/security.md`)**:
+   Never hardcode keys/tokens. Always enforce Supabase Row Level Security (RLS).
+7. **DECISION DOCUMENTATION (`rules/typescript/patterns.md`)**:
+   Always record architectural decisions and schema changes in living docs.
 
 ---
-
 ## 📊 MCP TOOLS: code-review-graph
 
 ALWAYS use these tools BEFORE Grep/Glob/Read to explore the codebase:

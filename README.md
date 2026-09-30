@@ -202,6 +202,63 @@ flowchart TD
 
 ---
 
+## 📜 HỆ THỐNG QUY TẮC CỐT LÕI (THE CONSTITUTIONAL RULES ENGINE)
+
+Một công ty không thể vận hành nếu chỉ có nhân viên giỏi (Skills) và quy trình (Workflows) mà thiếu đi **Hiến pháp & Kỷ luật thép (Rules)**. 
+
+Trong `agent-workflow-skill`, thư mục `rules/` và `.agents/rules/` chứa các bộ quy tắc bất biến mà mọi AI khi tham gia vào dự án **BẮT BUỘC PHẢI TUÂN THỦ 100%**:
+
+```
+                       ┌──────────────────────────────────────────────┐
+                       │   📜 HIẾN PHÁP BẤT BIẾN CỦA AGENT WORKFLOW   │
+                       └──────────────────────┬───────────────────────┘
+                                              │
+             ┌────────────────────────────────┼────────────────────────────────┐
+             │                                │                                │
+     ┌───────▼────────┐              ┌────────▼────────┐              ┌────────▼────────┐
+     │ 🧠 Tư Duy Kỷ   │              │ 🛡️ Chống Gian   │              │ 🔒 An Ninh &    │
+     │ Luật 7 Giai    │              │ Lận TypeScript  │              │ Quản Lý Bí Mật  │
+     │ Đoạn (Stage 0) │              │ (Strict Typing) │              │ (Secrets & A11y)│
+     └───────┬────────┘              └────────┬────────┘              └────────┬────────┘
+             │                                │                                │
+       disciplined-                      typescript.md                    typescript/
+       reasoning.md                      - Cấm any                        - security.md
+       - Stage 0 Clarify                 - Cấm @ts-ignore                 - patterns.md
+       - Karpathy Guidelines             - Cấm as any                     - testing.md
+       - Phẫu thuật mã                   - Discriminated Union            - hooks.md
+```
+
+### 1. 🧠 Quy Tắc Tư Duy Có Cấu Trúc (7-Stage Disciplined Reasoning)
+*File nguồn:* `rules/disciplined-reasoning.md`
+- **Giai đoạn 0 — Clarify (Bắt buộc)**: Khi yêu cầu có bất kỳ điểm mờ nào, AI **PHẢI DỪNG LẠI** và hỏi để làm rõ. Tuyệt đối không đoán mò ý người dùng.
+- **Giai đoạn 1 — Reasoning**: Trình bày tư duy chuỗi (Chain-of-Thought) rành mạch trước khi đưa ra kết luận.
+- **Giai đoạn 2 & 3 — Cân nhắc đa phương án**: Luôn so sánh ít nhất 2-3 giải pháp (ưu, nhược, rủi ro) trước khi chọn phương án tốt nhất.
+- **Giai đoạn 4 — Phẫu thuật mã nguồn (Surgical Changes)**: Chỉ sửa đúng phần cần sửa, tuyệt đối không "refactor ké" những đoạn code đang chạy ổn định.
+- **Giai đoạn 5 — Tự kiểm tra giả định (Self-Testing)**: Tự chạy kịch bản dry-run kiểm tra trường hợp bình thường, trường hợp biên và trường hợp lỗi.
+
+### 2. ⚡ Kỷ Luật Lập Trình Andrej Karpathy (Karpathy Guidelines)
+*File nguồn:* `rules/disciplined-reasoning.md (Phần II)`
+- **Think Before Coding**: Nghĩ thông suốt trước khi gõ phím. Nếu thấy yêu cầu over-engineering, AI có trách nhiệm phản biện (push back).
+- **Simplicity First**: Giải pháp 50 dòng giải quyết triệt để vấn đề luôn thắng giải pháp 200 dòng vẽ vời abstraction.
+- **Zero Hallucination**: Gặp điểm chưa chắc chắn phải nói thẳng *"Tôi không chắc"*, tuyệt đối không bịa đặt API.
+
+### 3. 🛡️ Quy Tắc TypeScript Strict & Anti-Cheat (Chống Gian Lận Ép Kiểu)
+*File nguồn:* `rules/typescript.md`
+- 🚫 **TUYỆT ĐỐI CẤM `any`**: Sử dụng `unknown` và kỹ thuật Type Narrowing khi nhận dữ liệu từ bên ngoài.
+- 🚫 **CẤM ÉP KIỂU MÙ QUÁNG**: Nghiêm cấm `as unknown as T` hoặc `as any` để đánh lừa compiler.
+- 🚫 **CẤM TẮT TYPE CHECK**: Nghiêm cấm sử dụng comment `// @ts-ignore` hoặc `// @ts-nocheck` để trốn lỗi biên dịch.
+- ✅ **Khai báo Return Type**: Mọi hàm public/export bắt buộc phải có kiểu trả về rõ ràng.
+- ✅ **Discriminated Unions**: Quản lý trạng thái async bằng type union (`idle | loading | success | error`) thay vì cắm cờ boolean lộn xộn.
+
+### 4. 🔒 An Ninh & Cấu Trúc Mã Nguồn (Security & Domain Patterns)
+*File nguồn:* `rules/typescript/`
+- **`security.md`**: Tuyệt đối không hardcode API keys, tokens hay passwords vào mã nguồn; 100% qua biến môi trường (`process.env`).
+- **`coding-style.md`**: Trích xuất object shapes lặp lại thành interfaces/types chuẩn, hàm thuần khiết (pure functions).
+- **`patterns.md`**: Định dạng chuẩn hóa phản hồi `ApiResponse<T>` đồng bộ giữa Client và Server.
+- **`testing.md`**: Chuẩn hóa kiểm thử E2E Playwright và Vitest unit test.
+
+---
+
 ## 📋 DANH MỤC 59 KỸ NĂNG (THE 59-SKILL CATALOG)
 
 ### 1. Khám Phá & Sản Phẩm (4 Skills)
