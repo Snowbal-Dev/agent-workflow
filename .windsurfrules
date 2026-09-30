@@ -1,0 +1,21 @@
+﻿# Agent Workflow Skill — Cursor / Windsurf Configuration
+
+Read `AGENTS.md` for the complete 6-phase workflow, auto-routing table,
+and skill catalog. That file is the single source of truth.
+
+## Quick Reference
+
+- Skills are in `skills/` directory
+- Each skill has a `SKILL.md` with instructions
+- Follow the 6-phase workflow: Discover → Design → Plan → Execute → Review → Ship
+- Use code-review-graph MCP tools BEFORE grep for code exploration
+- Never skip verification before claiming work is done
+
+## MCP: code-review-graph
+
+Use these tools BEFORE grep/glob/read:
+- detect_changes, get_review_context, get_impact_radius
+- get_affected_flows, query_graph, semantic_search_nodes
+- get_architecture_overview, refactor_tool
+
+## Stack: React + Vite + Supabase + Vercel
