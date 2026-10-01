@@ -33,6 +33,13 @@ If not, PROACTIVELY tell the user to install them.
 - **Check**: Try calling `list_tables` — if it responds, server is running.
 - **Fallback**: Work with SQL files and Supabase CLI directly.
 
+#### 3. `playwright-mcp` (Browser Automation & E2E Testing Engine)
+- **What**: Headless browser automation via Playwright for live web interaction, screenshots, and E2E validation.
+- **Why**: Allows AI to visually verify UI, automate web flows, capture console errors, and validate runtime pages without manual testing.
+- **Install**: See `mcp/playwright-setup.md`
+- **Check**: Try calling `navigate` or check tool availability.
+- **Fallback**: Static code testing via Vitest/Jest and manual browser verification.
+
 > **Auto-Reminder Protocol**: On FIRST interaction, silently check MCP
 > availability. If missing, include setup reminder at END of first response.
 

@@ -293,7 +293,7 @@ cp ./agent-workflow/AGENTS.md ./AGENTS.md
 
 ## 🔌 Critical MCP Engines
 
-For optimal velocity and structural intelligence, configure these two MCP servers:
+For optimal velocity, structural intelligence, and visual verification, configure these three MCP servers:
 
 1. **`code-review-graph` (Knowledge Graph Engine)**:
    - Indexes AST, callers, callees, and dependencies.
@@ -302,6 +302,10 @@ For optimal velocity and structural intelligence, configure these two MCP server
 2. **`supabase` (Database Engine)**:
    - Grants direct access to schemas, migrations, RLS policies, and database logs.
    - *Setup Guide*: [mcp/supabase-setup.md](mcp/supabase-setup.md)
+3. **`playwright-mcp` (Browser Automation & E2E Testing Engine)**:
+   - Equips the agent with browser automation: clicking, form filling, console log monitoring, and screenshots.
+   - Enables hands-free UI verification and robust End-to-End testing.
+   - *Setup Guide*: [mcp/playwright-setup.md](mcp/playwright-setup.md)
 
 ---
 
