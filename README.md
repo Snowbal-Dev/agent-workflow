@@ -291,10 +291,11 @@ cp ./agent-workflow/AGENTS.md ./AGENTS.md
 
 ---
 
-## 🔌 Critical MCP Engines
+## 🔌 Critical & Advanced MCP Engines
 
-For optimal velocity, structural intelligence, and visual verification, configure these three MCP servers:
+For optimal velocity, structural intelligence, visual verification, and persistent context, this repository supports 7 battle-tested MCP engines:
 
+### Core Engineering Triad (Recommended for Every Project)
 1. **`code-review-graph` (Knowledge Graph Engine)**:
    - Indexes AST, callers, callees, and dependencies.
    - Provides 5-10x faster navigation and saves up to 80% token overhead.
@@ -306,6 +307,22 @@ For optimal velocity, structural intelligence, and visual verification, configur
    - Equips the agent with browser automation: clicking, form filling, console log monitoring, and screenshots.
    - Enables hands-free UI verification and robust End-to-End testing.
    - *Setup Guide*: [mcp/playwright-setup.md](mcp/playwright-setup.md)
+
+### Advanced Enterprise Accelerators
+4. **`context7` (Live Documentation & Context Injection)**:
+   - Fetches real-time, official docs and API signatures for modern frameworks (React 19, Next.js 15, Tailwind v4, Supabase).
+   - Eliminates model hallucinations and deprecated syntax.
+   - *Setup Guide*: [mcp/context7-setup.md](mcp/context7-setup.md)
+5. **`github-mcp-server` (Git & GitHub Automation)**:
+   - Connects directly to GitHub: inspect issues, create PRs, review diffs, and manage branches.
+   - *Setup Guide*: [mcp/github-setup.md](mcp/github-setup.md)
+6. **`memory-mcp` (Persistent Knowledge Graph Memory)**:
+   - Official `@modelcontextprotocol/server-memory` knowledge graph.
+   - Retains architectural decisions, conventions, and business rules across fresh chat sessions.
+   - *Setup Guide*: [mcp/memory-setup.md](mcp/memory-setup.md)
+7. **`docker-mcp` (Containerization & Testing Sandbox)**:
+   - Allows agents to manage Docker containers, images, and spin up isolated sandbox testing environments safely.
+   - *Setup Guide*: [mcp/docker-setup.md](mcp/docker-setup.md)
 
 ---
 

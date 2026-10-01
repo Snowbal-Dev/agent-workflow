@@ -40,6 +40,23 @@ If not, PROACTIVELY tell the user to install them.
 - **Check**: Try calling `navigate` or check tool availability.
 - **Fallback**: Static code testing via Vitest/Jest and manual browser verification.
 
+### Advanced Enterprise Accelerators / Các MCP Mở Rộng
+#### 4. `context7` (Live Docs & Zero-Hallucination)
+- **What**: Real-time official documentation lookup for modern libraries (React 19, Next.js 15, Tailwind v4, Supabase).
+- **Install**: See `mcp/context7-setup.md`
+
+#### 5. `github-mcp-server` (Git & GitHub Automation)
+- **What**: Direct GitHub integration for issues, pull requests, diff reviews, and branch management.
+- **Install**: See `mcp/github-setup.md`
+
+#### 6. `memory-mcp` (Cross-Session Knowledge Graph Memory)
+- **What**: Official `@modelcontextprotocol/server-memory` knowledge graph retaining user preferences and conventions across sessions.
+- **Install**: See `mcp/memory-setup.md`
+
+#### 7. `docker-mcp` (Container Sandbox & Local Services)
+- **What**: Docker lifecycle management for isolated test runs, temporary databases, and container debugging.
+- **Install**: See `mcp/docker-setup.md`
+
 > **Auto-Reminder Protocol**: On FIRST interaction, silently check MCP
 > availability. If missing, include setup reminder at END of first response.
 
